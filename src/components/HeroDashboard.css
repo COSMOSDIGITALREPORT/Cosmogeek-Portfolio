@@ -1,0 +1,507 @@
+/* ==========================================================================
+   HERO DASHBOARD — floating glass software dashboard (Deep Forest + Mint)
+   ========================================================================== */
+
+.hd-scene {
+  --mint: #45d6a0;
+  --pale: #dff8ef;
+  --muted: #9cb8ae;
+  --surface: #102d26;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 0.86;
+  max-width: 640px;
+  margin: 0 auto;
+  user-select: none;
+}
+
+/* ---------- Ambient layer ---------- */
+.hd-ambient {
+  position: absolute;
+  inset: -6%;
+  pointer-events: none;
+}
+
+.hd-ambient::before {
+  content: '';
+  position: absolute;
+  inset: 12% 10%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(69, 214, 160, 0.22), transparent 65%);
+  filter: blur(30px);
+}
+
+.hd-orbits {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.hd-orbit {
+  transform-origin: 300px 270px;
+}
+
+.hd-orbit ellipse {
+  fill: none;
+  stroke: rgba(69, 214, 160, 0.35);
+  stroke-width: 1.2;
+  filter: drop-shadow(0 0 6px rgba(69, 214, 160, 0.6));
+}
+
+.hd-orbit--a { transform: rotate(-12deg); }
+.hd-orbit--b { transform: rotate(18deg); }
+
+.hd-orbit--b ellipse {
+  stroke: rgba(223, 248, 239, 0.16);
+  stroke-dasharray: 3 7;
+}
+
+.hd-comet {
+  fill: var(--pale);
+  filter: drop-shadow(0 0 6px var(--mint)) drop-shadow(0 0 14px var(--mint));
+  offset-rotate: 0deg;
+}
+
+.hd-orbit--a .hd-comet {
+  offset-path: path('M 20 270 A 280 96 0 1 0 580 270 A 280 96 0 1 0 20 270');
+  animation: hd-comet 9s linear infinite;
+}
+
+.hd-orbit--b .hd-comet {
+  offset-path: path('M 70 270 A 230 150 0 1 0 530 270 A 230 150 0 1 0 70 270');
+  animation: hd-comet 13s linear infinite reverse;
+}
+
+.hd-trail {
+  fill: none;
+  stroke: url(#hd-orbit);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 520;
+  filter: drop-shadow(0 0 6px rgba(69, 214, 160, 0.8));
+  animation: hd-trail 7s ease-in-out infinite;
+}
+
+.hd-trail--2 { stroke-width: 1.3; opacity: 0.6; animation-delay: -3.5s; }
+
+.hd-particle {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--pale);
+  box-shadow: 0 0 6px var(--mint);
+  opacity: 0;
+  animation: hd-particle 7s ease-in-out infinite;
+}
+
+/* ---------- Stage & panels ---------- */
+.hd-stage {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+.hd-panel {
+  position: relative;
+  border-radius: 16px;
+  background: linear-gradient(160deg, rgba(23, 61, 51, 0.72), rgba(9, 30, 25, 0.82));
+  border: 1px solid rgba(69, 214, 160, 0.32);
+  box-shadow:
+    0 30px 60px -24px rgba(0, 0, 0, 0.75),
+    0 0 40px -12px rgba(69, 214, 160, 0.4),
+    inset 0 1px 0 rgba(223, 248, 239, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: var(--pale);
+}
+
+.hd-label {
+  display: block;
+  font-size: clamp(0.55rem, 0.85vw, 0.7rem);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Main window */
+.hd-main {
+  position: absolute;
+  left: 4%;
+  top: 18%;
+  width: 66%;
+  overflow: hidden;
+}
+
+.hd-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 0.8rem;
+  border-bottom: 1px solid rgba(69, 214, 160, 0.16);
+  background: rgba(7, 27, 23, 0.55);
+}
+
+.hd-dots {
+  display: inline-flex;
+  gap: 0.3rem;
+}
+
+.hd-dots i {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: rgba(156, 184, 174, 0.45);
+}
+
+.hd-dots i:first-child { background: #45d6a0; }
+
+.hd-url {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  font-size: clamp(0.55rem, 0.8vw, 0.68rem);
+  color: var(--muted);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.hd-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: clamp(0.55rem, 0.8vw, 0.66rem);
+  font-weight: 700;
+  color: var(--mint);
+}
+
+.hd-live i {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--mint);
+  box-shadow: 0 0 8px var(--mint);
+  animation: hd-pulse 1.8s ease-in-out infinite;
+}
+
+.hd-main-body {
+  display: flex;
+}
+
+.hd-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.8rem 0.55rem;
+  border-right: 1px solid rgba(69, 214, 160, 0.12);
+}
+
+.hd-sidebar svg {
+  width: clamp(0.8rem, 1.2vw, 1rem);
+  height: clamp(0.8rem, 1.2vw, 1rem);
+  color: rgba(156, 184, 174, 0.7);
+}
+
+.hd-sidebar svg:first-child {
+  color: var(--mint);
+  filter: drop-shadow(0 0 5px var(--mint));
+}
+
+.hd-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.7rem;
+}
+
+.hd-row {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 0.6rem;
+}
+
+.hd-card {
+  padding: 0.55rem 0.6rem;
+  border-radius: 10px;
+  background: rgba(7, 27, 23, 0.55);
+  border: 1px solid rgba(69, 214, 160, 0.14);
+}
+
+.hd-chart svg {
+  display: block;
+  width: 100%;
+  height: clamp(3rem, 7vw, 5.2rem);
+  margin-top: 0.35rem;
+  filter: drop-shadow(0 0 6px rgba(69, 214, 160, 0.4));
+}
+
+.hd-bar-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: clamp(3rem, 7vw, 5.2rem);
+  margin-top: 0.35rem;
+}
+
+.hd-bar-row span {
+  flex: 1;
+  border-radius: 3px 3px 1px 1px;
+  background: linear-gradient(180deg, #45d6a0, rgba(69, 214, 160, 0.25));
+  transform-origin: bottom;
+}
+
+.hd-bar-row span:nth-child(6) {
+  background: linear-gradient(180deg, #dff8ef, #45d6a0);
+  box-shadow: 0 0 10px rgba(69, 214, 160, 0.7);
+}
+
+.hd-track {
+  position: relative;
+  height: 5px;
+  margin: 0.55rem 0 0.45rem;
+  border-radius: 999px;
+  background: rgba(156, 184, 174, 0.18);
+  overflow: hidden;
+}
+
+.hd-track-fill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #2bb983, #45d6a0, #dff8ef);
+  box-shadow: 0 0 10px rgba(69, 214, 160, 0.8);
+  transform-origin: left;
+}
+
+.hd-stages {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: clamp(0.5rem, 0.75vw, 0.64rem);
+  color: var(--muted);
+}
+
+.hd-stages li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.hd-stages i {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  border: 1px solid rgba(156, 184, 174, 0.6);
+}
+
+.hd-stages li.is-done {
+  color: var(--pale);
+}
+
+.hd-stages li.is-done i {
+  border-color: var(--mint);
+  background: var(--mint);
+  box-shadow: 0 0 6px var(--mint);
+}
+
+/* Floating panels */
+.hd-float {
+  position: absolute;
+  will-change: transform;
+}
+
+.hd-float--projects {
+  right: 0;
+  top: 0;
+  width: 40%;
+  transform: translateZ(60px);
+}
+
+.hd-projects {
+  padding: 0.7rem;
+}
+
+.hd-projects ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hd-projects li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.45rem;
+  border-radius: 9px;
+  background: rgba(7, 27, 23, 0.55);
+  border: 1px solid rgba(69, 214, 160, 0.12);
+}
+
+.hd-project-icon {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: clamp(1.4rem, 2.4vw, 1.9rem);
+  height: clamp(1.4rem, 2.4vw, 1.9rem);
+  border-radius: 7px;
+  background: linear-gradient(135deg, rgba(69, 214, 160, 0.35), rgba(16, 45, 38, 0.9));
+  color: var(--mint);
+}
+
+.hd-project-icon svg {
+  width: 60%;
+  height: 60%;
+}
+
+.hd-project-text {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.2;
+}
+
+.hd-project-text strong {
+  display: block;
+  overflow: hidden;
+  font-size: clamp(0.6rem, 0.95vw, 0.78rem);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.hd-project-text small {
+  display: block;
+  overflow: hidden;
+  font-size: clamp(0.5rem, 0.75vw, 0.62rem);
+  color: var(--muted);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.hd-badge {
+  flex-shrink: 0;
+  padding: 0.12rem 0.4rem;
+  border-radius: 999px;
+  border: 1px solid rgba(69, 214, 160, 0.45);
+  font-size: clamp(0.48rem, 0.7vw, 0.58rem);
+  font-weight: 700;
+  color: var(--mint);
+}
+
+.hd-float--code {
+  left: 0;
+  bottom: 4%;
+  width: 40%;
+  transform: translateZ(50px);
+}
+
+.hd-code {
+  padding: 0.6rem 0.75rem;
+}
+
+.hd-code pre {
+  margin: 0.4rem 0 0;
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-size: clamp(0.5rem, 0.82vw, 0.68rem);
+  line-height: 1.55;
+  color: var(--pale);
+  white-space: pre;
+  overflow: hidden;
+}
+
+.hd-code .t-k { color: #45d6a0; }
+.hd-code .t-f { color: #7ee8c0; }
+.hd-code .t-s { color: #f5d78e; }
+
+.hd-float--toast {
+  right: 4%;
+  bottom: 12%;
+  transform: translateZ(80px);
+}
+
+.hd-toast {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.55rem 0.8rem;
+  border-radius: 12px;
+}
+
+.hd-toast svg {
+  width: clamp(1rem, 1.6vw, 1.3rem);
+  height: clamp(1rem, 1.6vw, 1.3rem);
+  color: var(--mint);
+  filter: drop-shadow(0 0 6px var(--mint));
+}
+
+.hd-toast strong {
+  display: block;
+  font-size: clamp(0.6rem, 0.95vw, 0.78rem);
+}
+
+.hd-toast small {
+  display: block;
+  font-size: clamp(0.5rem, 0.75vw, 0.62rem);
+  color: var(--muted);
+}
+
+/* Gentle idle float on the floating panels */
+.hd-projects { animation: hd-float 7s ease-in-out infinite; }
+.hd-code { animation: hd-float 8s ease-in-out infinite -2s; }
+.hd-toast { animation: hd-float 6s ease-in-out infinite -4s; }
+
+/* ---------- Keyframes ---------- */
+@keyframes hd-comet {
+  from { offset-distance: 0%; }
+  to { offset-distance: 100%; }
+}
+
+@keyframes hd-trail {
+  0%, 100% { stroke-dashoffset: 0; opacity: 0.85; }
+  50% { stroke-dashoffset: 200; opacity: 0.35; }
+}
+
+@keyframes hd-particle {
+  0%, 100% { opacity: 0; transform: translateY(0); }
+  50% { opacity: 0.85; transform: translateY(-14px); }
+}
+
+@keyframes hd-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+
+@keyframes hd-float {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -8px; }
+}
+
+/* Phones: fewer overlapping panels keeps the scene legible */
+@media (max-width: 640px) {
+  .hd-float--code {
+    display: none;
+  }
+
+  .hd-main {
+    left: 0;
+    top: 22%;
+    width: 74%;
+  }
+
+  .hd-float--projects {
+    width: 46%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hd-scene *,
+  .hd-scene *::before {
+    animation: none !important;
+  }
+}

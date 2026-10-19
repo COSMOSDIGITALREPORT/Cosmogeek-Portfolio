@@ -1,0 +1,675 @@
+/* ==========================================================================
+   HOW WE WORK - Cosmogeek Software Solutions
+   Midnight-navy glassmorphism workflow with electric-blue & violet glow
+   ========================================================================== */
+
+/* Registered so the conic border gradient can rotate smoothly */
+@property --process-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.process-section {
+  --p-blue: #31c48d;
+  --p-violet: #45d6a0;
+  --p-cyan: #83F0C2;
+  position: relative;
+  padding: clamp(4.5rem, 9vh, 7rem) 0 clamp(4.5rem, 9vh, 6.5rem);
+  background: linear-gradient(180deg, #071B17 0%, #0B241F 50%, #071B17 100%);
+  border-top: 1px solid rgba(69, 214, 160, 0.14);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* ---------- Background ---------- */
+.process-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.process-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+}
+
+.process-glow--left {
+  top: 0;
+  left: -14%;
+  width: 620px;
+  height: 560px;
+  background: radial-gradient(circle, rgba(69, 214, 160, 0.22), transparent 70%);
+}
+
+.process-glow--right {
+  top: 10%;
+  right: -12%;
+  width: 620px;
+  height: 560px;
+  background: radial-gradient(circle, rgba(69, 214, 160, 0.18), transparent 70%);
+}
+
+.process-grid-bg {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 85% 70% at 50% 45%, #000 45%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse 85% 70% at 50% 45%, #000 45%, transparent 100%);
+}
+
+.process-trails {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.process-trail {
+  fill: none;
+  stroke: url(#process-trail);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-dasharray: 700;
+  filter: drop-shadow(0 0 6px rgba(42, 180, 130, 0.8));
+  animation: process-trail-flow 11s ease-in-out infinite;
+}
+
+.process-trail--2 { animation-delay: -4s; }
+.process-trail--3 { opacity: 0.6; animation-delay: -7s; }
+
+.process-cube {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(110, 224, 180, 0.85), rgba(42, 180, 130, 0.6) 50%, rgba(69, 214, 160, 0.75));
+  border: 1px solid rgba(201, 245, 227, 0.55);
+  box-shadow: 0 0 34px rgba(42, 180, 130, 0.6), inset 0 0 16px rgba(255, 255, 255, 0.25);
+  transform: rotate(0deg);
+}
+
+.process-cube--left { top: 9rem; left: 8%; }
+.process-cube--right { top: 9.5rem; right: 9%; width: 54px; height: 54px; }
+
+.process-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2.5rem);
+}
+
+/* ---------- Header ---------- */
+.process-header {
+  max-width: 980px;
+  margin: 0 auto clamp(2.5rem, 4.5vw, 3.5rem);
+  text-align: center;
+}
+
+.process-eyebrow-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.process-eyebrow-line {
+  flex: 0 1 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(69, 214, 160, 0.7));
+}
+
+.process-eyebrow-line--right {
+  background: linear-gradient(90deg, rgba(69, 214, 160, 0.7), transparent);
+}
+
+.process-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  background: rgba(12, 36, 30, 0.8);
+  border: 1px solid rgba(69, 214, 160, 0.4);
+  box-shadow: 0 0 24px rgba(69, 214, 160, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #DFF8EF;
+  white-space: nowrap;
+}
+
+.process-eyebrow-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #8BE8C1;
+  box-shadow: 0 0 10px #45d6a0;
+  animation: process-pulse-dot 2.2s ease-in-out infinite;
+}
+
+.process-heading {
+  margin-top: 1.25rem;
+  font-size: clamp(2.1rem, 4.4vw, 3.85rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-wrap: balance;
+}
+
+.process-heading-gradient {
+  background: linear-gradient(95deg, #83F0C2 0%, #31c48d 35%, #45d6a0 75%, #35C18E 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 25px rgba(42, 180, 130, 0.45));
+}
+
+.process-subheading {
+  margin: 1rem auto 0;
+  max-width: 44rem;
+  font-size: clamp(1rem, 1.35vw, 1.15rem);
+  line-height: 1.65;
+  color: #9CB8AE;
+}
+
+/* ---------- Steps: horizontal layout ---------- */
+.process-flow {
+  position: relative;
+}
+
+.process-steps {
+  --gap: clamp(2rem, 3.2vw, 3rem);
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.process-step {
+  position: relative;
+  min-width: 0;
+}
+
+.process-line,
+.process-node {
+  display: none;
+}
+
+/* Horizontal workflow line behind the connectors (row layout) */
+.process-hline {
+  position: absolute;
+  top: calc(6.4rem + 1.35rem - 1px);
+  left: 10%;
+  right: 10%;
+  z-index: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #2bb983, #45d6a0 50%, #dff8ef);
+  box-shadow: 0 0 12px rgba(69, 214, 160, 0.8);
+  transform-origin: left;
+  pointer-events: none;
+}
+
+.process-hline--base {
+  background: rgba(156, 184, 174, 0.18);
+  box-shadow: none;
+}
+
+.process-steps {
+  position: relative;
+  z-index: 1;
+}
+
+.process-card {
+  --mx: 50%;
+  --my: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.35rem 1.3rem 1.15rem;
+  border-radius: 18px;
+  background:
+    radial-gradient(120% 70% at 0% 0%, rgba(42, 180, 130, 0.14), transparent 60%),
+    linear-gradient(165deg, rgba(16, 45, 38, 0.85) 0%, rgba(7, 27, 23, 0.94) 100%);
+  box-shadow: 0 20px 44px -20px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  will-change: transform;
+  transition: box-shadow 0.35s ease;
+}
+
+/* Animated rotating gradient border */
+.process-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--process-angle),
+    rgba(131, 240, 194, 0.9),
+    rgba(69, 214, 160, 0.35),
+    rgba(69, 214, 160, 0.95),
+    rgba(31, 157, 110, 0.4),
+    rgba(131, 240, 194, 0.9)
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.75;
+  animation: process-border-spin 8s linear infinite;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.process-step:nth-child(even) .process-card::before {
+  animation-delay: -4s;
+}
+
+.process-card:hover {
+  box-shadow:
+    0 26px 54px -18px rgba(0, 0, 0, 0.85),
+    0 0 40px -8px rgba(42, 180, 130, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.process-card:hover::before {
+  opacity: 1;
+}
+
+.process-card-glow {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(300px circle at var(--mx) var(--my), rgba(69, 214, 160, 0.2), transparent 55%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.process-card:hover .process-card-glow {
+  opacity: 1;
+}
+
+.process-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.35rem;
+}
+
+.process-icon {
+  display: grid;
+  place-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(49, 196, 141, 0.35), rgba(12, 36, 30, 0.9));
+  border: 1px solid rgba(110, 224, 180, 0.5);
+  box-shadow: 0 0 22px rgba(69, 214, 160, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  color: #72DDB3;
+  transition: transform 0.35s ease, background 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.process-step:nth-child(2) .process-icon,
+.process-step:nth-child(4) .process-icon {
+  color: #8BE8C1;
+  border-color: rgba(150, 236, 200, 0.5);
+}
+
+.process-icon svg {
+  width: 1.65rem;
+  height: 1.65rem;
+  filter: drop-shadow(0 0 6px currentColor);
+}
+
+.process-card:hover .process-icon {
+  transform: translateY(-2px) rotate(-5deg);
+  background: linear-gradient(135deg, var(--p-blue), var(--p-violet));
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 0 26px rgba(69, 214, 160, 0.65);
+}
+
+.process-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: rgba(156, 184, 174, 0.45);
+  font-variant-numeric: tabular-nums;
+  transition: color 0.35s ease, text-shadow 0.35s ease;
+}
+
+.process-card:hover .process-number {
+  color: #A4F2D0;
+  text-shadow: 0 0 18px rgba(131, 240, 194, 0.7);
+}
+
+.process-subtitle {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #9CB8AE;
+}
+
+.process-title {
+  margin-top: 0.4rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.process-title-accent {
+  background: linear-gradient(90deg, #83F0C2, #35c18e 60%, #45D6A0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.process-desc {
+  flex: 1;
+  margin-top: 0.85rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #9CB8AE;
+}
+
+.process-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(156, 184, 174, 0.16);
+}
+
+.process-status {
+  white-space: nowrap;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #72DDB3;
+}
+
+.process-card-arrow {
+  display: grid;
+  place-items: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  border: 1.5px solid rgba(131, 240, 194, 0.6);
+  color: #DFF8EF;
+  transition: background 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.process-card-arrow svg {
+  width: 1rem;
+  height: 1rem;
+  transition: transform 0.35s ease;
+}
+
+.process-card:hover .process-card-arrow {
+  background: linear-gradient(135deg, var(--p-blue), var(--p-violet));
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 0 18px rgba(69, 214, 160, 0.7);
+}
+
+.process-card:hover .process-card-arrow svg {
+  transform: translateX(3px);
+}
+
+/* Glowing connector between cards */
+.process-connector {
+  position: absolute;
+  top: 6.4rem;
+  right: calc(var(--gap) / -2 - 1.35rem);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, rgba(42, 180, 130, 0.55), rgba(7, 27, 23, 0.95) 75%);
+  border: 1.5px solid rgba(131, 240, 194, 0.8);
+  color: #ffffff;
+  animation: process-connector-glow 2.6s ease-in-out infinite;
+}
+
+.process-step:nth-child(2) .process-connector { animation-delay: 0.5s; }
+.process-step:nth-child(3) .process-connector { animation-delay: 1s; }
+.process-step:nth-child(4) .process-connector { animation-delay: 1.5s; }
+
+/* Short beam joining each card to the next, beneath the connector */
+.process-step:not(:last-child)::after {
+  display: none;
+  content: '';
+  position: absolute;
+  top: calc(6.4rem + 1.35rem - 1px);
+  right: calc(var(--gap) * -1);
+  z-index: 1;
+  width: var(--gap);
+  height: 2px;
+  background: linear-gradient(90deg, rgba(131, 240, 194, 0.9), rgba(131, 240, 194, 0.9));
+  box-shadow: 0 0 8px rgba(42, 180, 130, 0.8);
+  pointer-events: none;
+}
+
+.process-connector svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  animation: process-arrow-nudge 2.6s ease-in-out infinite;
+}
+
+/* ---------- Keyframes ---------- */
+@keyframes process-border-spin {
+  to { --process-angle: 360deg; }
+}
+
+@keyframes process-connector-glow {
+  0%, 100% { box-shadow: 0 0 12px rgba(42, 180, 130, 0.45); }
+  50% { box-shadow: 0 0 26px rgba(131, 240, 194, 0.85), 0 0 40px rgba(69, 214, 160, 0.4); }
+}
+
+@keyframes process-arrow-nudge {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(3px); }
+}
+
+@keyframes process-trail-flow {
+  0%, 100% { stroke-dashoffset: 0; opacity: 0.8; }
+  50% { stroke-dashoffset: 160; opacity: 0.4; }
+}
+
+@keyframes process-pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(0.8); }
+}
+
+@keyframes process-line-flow {
+  to { background-position: 0 200%; }
+}
+
+/* Five-across on narrower desktops: tighten spacing so cards breathe */
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .process-steps {
+    --gap: 1.75rem;
+  }
+
+  .process-card {
+    padding: 1.15rem 1.05rem 1rem;
+  }
+
+  .process-icon {
+    width: 3.1rem;
+    height: 3.1rem;
+  }
+
+  .process-number {
+    font-size: 1.9rem;
+  }
+
+  .process-title {
+    font-size: 1.18rem;
+  }
+
+  .process-desc {
+    font-size: 0.86rem;
+  }
+
+  .process-status {
+    font-size: 0.74rem;
+  }
+
+  .process-connector {
+    top: 5.9rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    right: calc(var(--gap) / -2 - 1.2rem);
+  }
+
+  .process-hline {
+    top: calc(5.9rem + 1.2rem - 1px);
+  }
+}
+
+/* ---------- Stacked timeline layout ---------- */
+@media (max-width: 1199px) {
+  .process-flow {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .process-step {
+    padding-left: 4rem;
+  }
+
+  .process-connector,
+  .process-hline {
+    display: none;
+  }
+
+  .process-line--base {
+    background: rgba(156, 184, 174, 0.2) !important;
+    box-shadow: none !important;
+    animation: none !important;
+  }
+
+  /* Vertical gradient line with a travelling pulse */
+  .process-line {
+    display: block;
+    position: absolute;
+    top: 1.75rem;
+    bottom: 1.75rem;
+    left: calc(1.4rem - 1px);
+    width: 2px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #83F0C2, #35c18e 25%, #45d6a0 50%, #35c18e 75%, #83F0C2);
+    background-size: 100% 200%;
+    box-shadow: 0 0 10px rgba(42, 180, 130, 0.7);
+    transform-origin: top;
+    animation: process-line-flow 4s linear infinite;
+  }
+
+  .process-node {
+    position: absolute;
+    top: 1.4rem;
+    left: 0;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, rgba(42, 180, 130, 0.65), rgba(7, 27, 23, 0.95) 75%);
+    border: 1.5px solid rgba(131, 240, 194, 0.85);
+    box-shadow: 0 0 18px rgba(42, 180, 130, 0.6);
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: #ffffff;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .process-card-top {
+    margin-bottom: 1rem;
+  }
+
+  .process-number {
+    display: none;
+  }
+
+  .process-title br {
+    display: none;
+  }
+
+  .process-cube--left { top: 4rem; left: 3%; }
+  .process-cube--right { top: 5rem; right: 3%; }
+}
+
+@media (max-width: 640px) {
+  .process-step {
+    padding-left: 3.4rem;
+  }
+
+  .process-node {
+    width: 2.4rem;
+    height: 2.4rem;
+    font-size: 0.78rem;
+  }
+
+  .process-line {
+    left: calc(1.2rem - 1px);
+  }
+
+  .process-card {
+    padding: 1.1rem 1.05rem 1rem;
+  }
+
+  .process-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .process-title {
+    font-size: 1.15rem;
+  }
+
+  .process-eyebrow-line {
+    flex-basis: 40px;
+  }
+
+  .process-cube {
+    opacity: 0.4;
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .process-section *,
+  .process-section *::before,
+  .process-section *::after {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+  }
+}

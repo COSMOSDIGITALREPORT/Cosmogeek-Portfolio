@@ -1,0 +1,149 @@
+{
+  "slug": "ai-solutions",
+  "title": "AI Automation & AI Solutions",
+  "voice": "hi-IN-SwaraNeural",
+  "scenes": [
+    {
+      "id": "intro",
+      "template": "title",
+      "chapter": "Introduction",
+      "heading": "AI Automation & AI Solutions",
+      "subheading": "Practical AI and automation for everyday business work",
+      "chips": ["AI Assistants", "Automation", "Insights", "Human-in-the-loop"],
+      "cues": [
+        { "hi": "नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम बात करेंगे AI Automation और AI Solutions के बारे में।", "en": "Hello! Welcome to Cosmogeek Solutions. Today we will talk about AI Automation and AI Solutions." },
+        { "hi": "कई teams हर हफ़्ते घंटों repetitive काम में लगाती हैं। एक system से दूसरे में data copy करना, documents पढ़ना, एक ही सवाल का बार-बार जवाब देना, और reports बनाना।", "en": "Many teams spend hours every week on repetitive work: copying data between systems, reading documents, answering the same questions and preparing reports." },
+        { "hi": "AI और automation ये काम संभाल सकते हैं, ताकि आपकी team decisions और customers पर focus कर सके।", "en": "AI and automation can take over this work, so your team can focus on decisions and customers." }
+      ]
+    },
+    {
+      "id": "problems",
+      "template": "problems",
+      "chapter": "Problems",
+      "heading": "Problems we solve",
+      "items": [
+        "Manual data entry and repetitive admin",
+        "Data scattered across systems",
+        "Slow customer responses",
+        "Inconsistent team handoffs"
+      ],
+      "cues": [
+        { "hi": "पहले देखते हैं वो problems जिन्हें AI automation solve करता है।", "en": "First, let us look at the problems AI automation solves." },
+        { "hi": "Manual data entry और repetitive admin tasks, जिनमें बहुत time जाता है और गलतियाँ भी होती हैं।", "en": "Manual data entry and repetitive admin tasks, which take a lot of time and cause mistakes.", "highlight": 0 },
+        { "hi": "Data अलग-अलग systems में बिखरा होना, जिससे decisions लेने में देर होती है।", "en": "Data scattered across different systems, which delays decisions.", "highlight": 1 },
+        { "hi": "Customer queries का जवाब देर से जाना, क्योंकि first-level support automated नहीं है।", "en": "Slow replies to customer queries, because first-level support is not automated.", "highlight": 2 },
+        { "hi": "और teams के बीच काम की handoff में consistency की कमी।", "en": "And inconsistent handoffs of work between teams.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "features",
+      "template": "features",
+      "chapter": "Features",
+      "heading": "What we build",
+      "items": [
+        { "title": "AI assistants & chatbots", "desc": "Trained on your business information" },
+        { "title": "Document extraction", "desc": "Invoices, forms and PDFs to structured data" },
+        { "title": "Workflow automation", "desc": "Approvals, alerts and data sync" },
+        { "title": "LLM integrations", "desc": "AI features inside your software" },
+        { "title": "Predictive analytics", "desc": "Trend and demand insights" },
+        { "title": "Human-in-the-loop", "desc": "Review steps keep people in control" }
+      ],
+      "cues": [
+        { "hi": "अब देखते हैं हम क्या-क्या बनाते हैं।", "en": "Now let us see what we build." },
+        { "hi": "AI assistants और chatbots, जो आपके business की जानकारी पर trained होते हैं और common सवालों का जवाब देते हैं।", "en": "AI assistants and chatbots trained on your business information that answer common questions.", "highlight": 0 },
+        { "hi": "Document extraction. Invoices, forms और PDFs को पढ़कर structured data में बदलना।", "en": "Document extraction: reading invoices, forms and PDFs and turning them into structured data.", "highlight": 1 },
+        { "hi": "Workflow automation, यानी automatic approvals, notifications और tools के बीच data sync.", "en": "Workflow automation: automatic approvals, notifications and data sync between tools.", "highlight": 2 },
+        { "hi": "LLM integrations, जिससे आपके existing software और website में AI features जुड़ जाते हैं।", "en": "LLM integrations that add AI features to your existing software and website.", "highlight": 3 },
+        { "hi": "Predictive analytics, आपके पुराने data से trends और demand की समझ।", "en": "Predictive analytics: understanding trends and demand from your historical data.", "highlight": 4 },
+        { "hi": "और human-in-the-loop design, ताकि ज़रूरी जगह पर control हमेशा इंसान के हाथ में रहे।", "en": "And human-in-the-loop design, so people always stay in control where it matters.", "highlight": 5 }
+      ]
+    },
+    {
+      "id": "demo",
+      "template": "ui",
+      "variant": "pipeline",
+      "chapter": "Live demo",
+      "heading": "An automated invoice workflow",
+      "cues": [
+        { "hi": "एक example देखिए। एक supplier का invoice email या WhatsApp पर आता है।", "en": "Here is an example. A supplier invoice arrives by email or WhatsApp.", "highlight": 0 },
+        { "hi": "AI उस invoice को पढ़ता है, और supplier name, amount, GST और date जैसे fields अपने आप निकाल लेता है।", "en": "AI reads the invoice and automatically extracts fields such as supplier name, amount, GST and date.", "highlight": 1 },
+        { "hi": "फिर workflow manager को approval के लिए भेजता है। यहाँ इंसान check करके approve करता है।", "en": "The workflow then sends it to a manager for approval. Here, a person checks and approves it.", "highlight": 2 },
+        { "hi": "Approve होते ही entry आपके ERP या accounting system में चली जाती है, और dashboard update हो जाता है।", "en": "Once approved, the entry goes into your ERP or accounting system and the dashboard updates.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "process",
+      "template": "flow",
+      "chapter": "Process",
+      "heading": "How we deliver AI projects",
+      "items": [
+        { "title": "Process Audit", "desc": "Opportunity report" },
+        { "title": "Solution Design", "desc": "Architecture & pilot plan" },
+        { "title": "Pilot Build", "desc": "Working pilot" },
+        { "title": "Rollout", "desc": "Production automation" },
+        { "title": "Improve", "desc": "Monitoring cycle" }
+      ],
+      "cues": [
+        { "hi": "हमारा process practical है और छोटे pilot से शुरू होता है।", "en": "Our process is practical and starts with a small pilot." },
+        { "hi": "Step one, process audit. हम पता लगाते हैं कि कौन से काम automation के लिए सबसे सही हैं।", "en": "Step one, a process audit. We find which tasks are best suited to automation.", "highlight": 0 },
+        { "hi": "Step two, solution design. सही AI models, data flow और security boundaries चुनना।", "en": "Step two, solution design: choosing the right AI models, data flows and security boundaries.", "highlight": 1 },
+        { "hi": "Step three, एक focused use case पर pilot बनाकर test करना।", "en": "Step three, building and testing a pilot on one focused use case.", "highlight": 2 },
+        { "hi": "Step four, CRM, ERP और databases से integration, और team training.", "en": "Step four, integration with your CRM, ERP and databases, plus team training.", "highlight": 3 },
+        { "hi": "और step five, accuracy और results को monitor करके लगातार सुधार।", "en": "And step five, monitoring accuracy and results and improving continuously.", "highlight": 4 }
+      ]
+    },
+    {
+      "id": "tech",
+      "template": "tech",
+      "chapter": "Technologies",
+      "heading": "Technologies we use",
+      "items": ["Python", "AI/ML", "LLMs", "Node.js", "PostgreSQL", "Docker"],
+      "cues": [
+        { "hi": "Technology में हम Python, AI और machine learning models, LLMs, Node.js, PostgreSQL और Docker use करते हैं।", "en": "We use Python, AI and machine learning models, LLMs, Node.js, PostgreSQL and Docker." },
+        { "hi": "आपका data secure boundaries में रहता है, और public models को train करने के लिए use नहीं होता।", "en": "Your data stays within secure boundaries and is not used to train public models." }
+      ]
+    },
+    {
+      "id": "benefits",
+      "template": "benefits",
+      "chapter": "Benefits",
+      "heading": "Benefits for your business",
+      "items": [
+        { "title": "Save time", "desc": "Teams focus on higher-value work" },
+        { "title": "Fewer errors", "desc": "Consistent, rule-based processing" },
+        { "title": "Faster responses", "desc": "Assistants answer any time" },
+        { "title": "Better decisions", "desc": "Insights from your own data" }
+      ],
+      "cues": [
+        { "hi": "तो इसके फ़ायदे क्या हैं?", "en": "So what are the benefits?" },
+        { "hi": "Time की बचत। Repetitive काम automatic हो जाता है।", "en": "Time saved. Repetitive work becomes automatic.", "highlight": 0 },
+        { "hi": "कम errors, क्योंकि processing हर बार एक जैसे rules से होती है।", "en": "Fewer errors, because processing follows the same rules every time.", "highlight": 1 },
+        { "hi": "तेज़ responses. AI assistants दिन हो या रात, तुरंत जवाब देते हैं।", "en": "Faster responses. AI assistants reply instantly, day or night.", "highlight": 2 },
+        { "hi": "और बेहतर decisions, आपके अपने data से बने insights के साथ।", "en": "And better decisions, with insights built from your own data.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "usecases",
+      "template": "usecases",
+      "chapter": "Use cases",
+      "heading": "Where AI helps",
+      "items": ["Customer support assistants", "Invoice & document processing", "Lead qualification", "Report summaries", "Demand insights"],
+      "industries": ["Agriculture", "Retail", "Manufacturing", "Healthcare", "Education", "Services"],
+      "cues": [
+        { "hi": "AI कहाँ काम आता है? Customer support assistants, invoice और document processing, lead qualification, reports की summaries, और inventory व demand insights.", "en": "Where does AI help? Customer support assistants, invoice and document processing, lead qualification, report summaries, and inventory and demand insights." },
+        { "hi": "Agriculture से लेकर retail, manufacturing, healthcare और education तक, हर industry में automation के मौके होते हैं।", "en": "From agriculture to retail, manufacturing, healthcare and education, every industry has opportunities for automation." }
+      ]
+    },
+    {
+      "id": "cta",
+      "template": "cta",
+      "chapter": "Get started",
+      "heading": "Find your automation opportunities",
+      "cues": [
+        { "hi": "अगर आप जानना चाहते हैं कि आपके business में AI कहाँ और कैसे मदद कर सकता है, तो Cosmogeek Solutions से बात कीजिए।", "en": "If you want to know where and how AI can help your business, talk to Cosmogeek Solutions." },
+        { "hi": "हम आपके processes को समझकर practical recommendations देंगे।", "en": "We will understand your processes and give you practical recommendations." },
+        { "hi": "Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!", "en": "Click Start a Project, or call or WhatsApp us. Thank you!" }
+      ]
+    }
+  ]
+}

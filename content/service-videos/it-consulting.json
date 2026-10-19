@@ -1,0 +1,147 @@
+{
+  "slug": "it-consulting",
+  "title": "IT Consulting & Support",
+  "voice": "hi-IN-SwaraNeural",
+  "scenes": [
+    {
+      "id": "intro",
+      "template": "title",
+      "chapter": "Introduction",
+      "heading": "IT Consulting & Support",
+      "subheading": "Technology guidance and dependable support for growing businesses",
+      "chips": ["Strategy", "Maintenance", "Security", "Support"],
+      "cues": [
+        { "hi": "नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम बात करेंगे IT Consulting और Support service की।", "en": "Hello! Welcome to Cosmogeek Solutions. Today we will talk about our IT Consulting and Support service." },
+        { "hi": "बढ़ते businesses के सामने technology से जुड़े कई फ़ैसले होते हैं। कौन सा software ख़रीदें या बनवाएं, data को secure कैसे रखें, और कुछ खराब हो जाए तो कौन ठीक करेगा।", "en": "Growing businesses face many technology decisions: which software to buy or build, how to keep data secure, and who fixes things when they break." },
+        { "hi": "हमारी consulting और support service आपको एक experienced technology partner देती है।", "en": "Our consulting and support service gives you an experienced technology partner." }
+      ]
+    },
+    {
+      "id": "problems",
+      "template": "problems",
+      "chapter": "Problems",
+      "heading": "Problems we solve",
+      "items": [
+        "Unclear technology choices",
+        "No in-house maintenance team",
+        "Recurring downtime",
+        "Security and backup gaps"
+      ],
+      "cues": [
+        { "hi": "पहले problems देखते हैं।", "en": "Let us look at the problems first." },
+        { "hi": "कौन सी technology या vendor चुनें, इसको लेकर uncertainty.", "en": "Uncertainty about which technology or vendor to choose.", "highlight": 0 },
+        { "hi": "Business-critical software को maintain करने के लिए in-house team का न होना।", "en": "No in-house team to maintain business-critical software.", "highlight": 1 },
+        { "hi": "बार-बार downtime, और issues के solve होने में देरी।", "en": "Repeated downtime and slow resolution of issues.", "highlight": 2 },
+        { "hi": "और systems में security और backup की कमियाँ।", "en": "And security and backup gaps in the systems.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "features",
+      "template": "features",
+      "chapter": "Features",
+      "heading": "What's included",
+      "items": [
+        { "title": "Technology strategy", "desc": "Roadmaps tied to business goals" },
+        { "title": "Architecture reviews", "desc": "Code, infrastructure and stack" },
+        { "title": "Maintenance & bug fixes", "desc": "Updates and improvements" },
+        { "title": "Monitoring & backups", "desc": "Uptime alerts and automatic backups" },
+        { "title": "Security audits", "desc": "Access reviews and hardening" },
+        { "title": "Technical support", "desc": "Phone, email and WhatsApp" }
+      ],
+      "cues": [
+        { "hi": "इस service में ये सब शामिल है।", "en": "This service includes all of this." },
+        { "hi": "Technology strategy और digital transformation roadmap, आपके business goals के हिसाब से।", "en": "Technology strategy and a digital transformation roadmap based on your business goals.", "highlight": 0 },
+        { "hi": "आपके code, infrastructure और technology stack का architecture review.", "en": "An architecture review of your code, infrastructure and technology stack.", "highlight": 1 },
+        { "hi": "Regular maintenance, bug fixes और improvements.", "en": "Regular maintenance, bug fixes and improvements.", "highlight": 2 },
+        { "hi": "Uptime monitoring, alerts और automatic backups.", "en": "Uptime monitoring, alerts and automatic backups.", "highlight": 3 },
+        { "hi": "Security audits, access reviews और hardening.", "en": "Security audits, access reviews and hardening.", "highlight": 4 },
+        { "hi": "और phone, email और WhatsApp पर technical support, Monday से Saturday, सुबह 9 से शाम 7 बजे तक।", "en": "And technical support by phone, email and WhatsApp, Monday to Saturday, 9 AM to 7 PM.", "highlight": 5 }
+      ]
+    },
+    {
+      "id": "demo",
+      "template": "ui",
+      "variant": "support",
+      "chapter": "Live demo",
+      "heading": "Proactive support in action",
+      "cues": [
+        { "hi": "Support कैसे काम करता है, देखिए। Monitoring dashboard पर आपके सारे systems की health दिखती है।", "en": "Here is how support works. The monitoring dashboard shows the health of all your systems.", "highlight": 0 },
+        { "hi": "अगर किसी server या application में problem आती है, तो तुरंत alert और support ticket बन जाता है।", "en": "If a server or application has a problem, an alert and a support ticket are created immediately.", "highlight": 1 },
+        { "hi": "हमारी team issue diagnose करके fix करती है, और ticket में पूरा update देती है।", "en": "Our team diagnoses and fixes the issue, and posts a full update on the ticket.", "highlight": 2 }
+      ]
+    },
+    {
+      "id": "process",
+      "template": "flow",
+      "chapter": "Process",
+      "heading": "How we work with you",
+      "items": [
+        { "title": "Discovery", "desc": "Goals & pain points" },
+        { "title": "Assessment", "desc": "Assessment report" },
+        { "title": "Roadmap", "desc": "Prioritized plan" },
+        { "title": "Implementation", "desc": "Improvements" },
+        { "title": "Ongoing Support", "desc": "Support plan" }
+      ],
+      "cues": [
+        { "hi": "हमारा तरीका पाँच steps में।", "en": "Our approach, in five steps." },
+        { "hi": "Discovery session. आपके goals, current systems और pain points को समझना।", "en": "A discovery session to understand your goals, current systems and pain points.", "highlight": 0 },
+        { "hi": "Assessment. Code, infrastructure, security और processes का review.", "en": "Assessment: a review of code, infrastructure, security and processes.", "highlight": 1 },
+        { "hi": "Roadmap. Effort और impact के हिसाब से prioritized recommendations.", "en": "Roadmap: prioritized recommendations based on effort and impact.", "highlight": 2 },
+        { "hi": "Implementation. आपकी team के साथ मिलकर roadmap को लागू करना।", "en": "Implementation: putting the roadmap into practice together with your team.", "highlight": 3 },
+        { "hi": "और ongoing support, proactive maintenance और तेज़ issue resolution के साथ।", "en": "And ongoing support with proactive maintenance and fast issue resolution.", "highlight": 4 }
+      ]
+    },
+    {
+      "id": "tech",
+      "template": "tech",
+      "chapter": "Technologies",
+      "heading": "Technologies we work with",
+      "items": ["Docker", "GitHub Actions", "Node.js", "PostgreSQL", "Monitoring tools", "Cloud hosting"],
+      "cues": [
+        { "hi": "हम Docker, GitHub Actions, Node.js, PostgreSQL, monitoring tools और cloud hosting के साथ काम करते हैं।", "en": "We work with Docker, GitHub Actions, Node.js, PostgreSQL, monitoring tools and cloud hosting." },
+        { "hi": "और अगर आपका software किसी दूसरी team ने बनाया है, तो भी हम audit करके उसकी maintenance संभाल सकते हैं।", "en": "And even if your software was built by another team, we can audit it and take over maintenance." }
+      ]
+    },
+    {
+      "id": "benefits",
+      "template": "benefits",
+      "chapter": "Benefits",
+      "heading": "Benefits for your business",
+      "items": [
+        { "title": "Confident decisions", "desc": "Clear, unbiased advice" },
+        { "title": "Less downtime", "desc": "Proactive monitoring" },
+        { "title": "Safer systems", "desc": "Security and backups" },
+        { "title": "Predictable support", "desc": "A team that knows your systems" }
+      ],
+      "cues": [
+        { "hi": "इसके फ़ायदे।", "en": "The benefits." },
+        { "hi": "Technology investments पर भरोसे के साथ फ़ैसले।", "en": "Confident decisions on technology investments.", "highlight": 0 },
+        { "hi": "Proactive monitoring से कम downtime.", "en": "Less downtime through proactive monitoring.", "highlight": 1 },
+        { "hi": "Security reviews और backups से ज़्यादा सुरक्षित systems.", "en": "Safer systems through security reviews and backups.", "highlight": 2 },
+        { "hi": "और एक dedicated team, जो आपके systems को अच्छी तरह जानती है।", "en": "And a dedicated team that knows your systems well.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "usecases",
+      "template": "usecases",
+      "chapter": "Use cases",
+      "heading": "When to call us",
+      "items": ["Choosing new software", "Taking over existing software", "Security & backup review", "Cloud migration planning", "Annual maintenance"],
+      "industries": ["SMEs", "Manufacturing", "Healthcare", "Education", "Retail", "Startups"],
+      "cues": [
+        { "hi": "नया software चुनना हो, existing software की ज़िम्मेदारी लेनी हो, security और backup review करना हो, cloud migration plan करना हो, या annual maintenance चाहिए हो।", "en": "Choosing new software, taking over existing software, reviewing security and backups, planning a cloud migration, or arranging annual maintenance." },
+        { "hi": "SMEs, manufacturing, healthcare, education, retail और startups, सबके लिए हमारी team तैयार है।", "en": "Our team supports SMEs, manufacturing, healthcare, education, retail and startups." }
+      ]
+    },
+    {
+      "id": "cta",
+      "template": "cta",
+      "chapter": "Get started",
+      "heading": "Get a technology partner",
+      "cues": [
+        { "hi": "एक भरोसेमंद technology partner चाहिए? Cosmogeek Solutions से बात कीजिए।", "en": "Need a dependable technology partner? Talk to Cosmogeek Solutions." },
+        { "hi": "Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!", "en": "Click Start a Project, or call or WhatsApp us. Thank you!" }
+      ]
+    }
+  ]
+}

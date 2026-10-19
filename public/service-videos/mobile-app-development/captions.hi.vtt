@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.504 --> 00:00:11.160
+नमस्ते! Cosmogeek Solutions में आपका स्वागत है। इस video में हम समझेंगे हमारी Mobile App Development service.
+
+2
+00:00:11.448 --> 00:00:23.616
+आपके customers और field teams दिन का ज़्यादातर समय अपने phone पर बिताते हैं। एक अच्छा mobile app आपकी service को सीधे उनके हाथ में पहुँचा देता है।
+
+3
+00:00:23.904 --> 00:00:35.040
+हम Android और iOS apps बनाते हैं, ज़्यादातर Flutter या React Native से, एक ही codebase में, secure backend और admin panel के साथ।
+
+4
+00:00:35.736 --> 00:00:42.048
+पहले समझते हैं कि mobile apps में आम तौर पर कौन सी problems आती हैं।
+
+5
+00:00:42.336 --> 00:00:49.632
+पहली, अलग-अलग Android और iOS devices पर app का experience एक जैसा नहीं रहता।
+
+6
+00:00:49.920 --> 00:00:57.744
+दूसरी, field में internet कमज़ोर हो तो data खो जाता है, क्योंकि app offline काम नहीं करता।
+
+7
+00:00:58.032 --> 00:01:04.104
+तीसरी, photos upload करने या live location tracking में बहुत lag होना।
+
+8
+00:01:04.392 --> 00:01:11.952
+और चौथी, Play Store और App Store के guidelines और release process काफ़ी complex होते हैं।
+
+9
+00:01:12.648 --> 00:01:17.544
+अब देखते हैं कि हमारी service में क्या-क्या शामिल है।
+
+10
+00:01:17.832 --> 00:01:26.352
+Android और iOS apps. Cross-platform development, और ज़रूरत हो तो native modules भी।
+
+11
+00:01:26.640 --> 00:01:34.368
+Touch-first UX. ऐसी simple screens जो एक हाथ से आराम से use हो सकें।
+
+12
+00:01:34.656 --> 00:01:44.448
+Offline sync. Internet न हो तब भी काम चलता रहे, और connection आते ही data अपने आप sync हो जाए।
+
+13
+00:01:44.736 --> 00:01:50.136
+Push notifications, GPS tracking और maps integration.
+
+14
+00:01:50.424 --> 00:01:57.456
+OTP और biometric login के साथ secure access, और payment gateway integration.
+
+15
+00:01:57.744 --> 00:02:05.376
+और एक web admin panel व backend APIs, जिससे आप app का पूरा data manage कर सकें।
+
+16
+00:02:06.072 --> 00:02:16.176
+एक example देखिए। ये एक ordering app की home screen है, जहाँ customer products देखकर सीधे order कर सकता है।
+
+17
+00:02:16.464 --> 00:02:23.664
+Order confirm होते ही push notification आता है, और customer को हर update तुरंत मिलता है।
+
+18
+00:02:23.952 --> 00:02:29.568
+Delivery के दौरान live tracking दिखती है, map पर, real time में।
+
+19
+00:02:29.856 --> 00:02:37.440
+और अगर network चला जाए, तो app offline data save करता है, और बाद में sync कर देता है।
+
+20
+00:02:38.136 --> 00:02:41.880
+अब हमारा process, step by step.
+
+21
+00:02:42.168 --> 00:02:51.336
+Step one, requirements और prototype. User roles और flows तय करके एक clickable prototype बनाते हैं।
+
+22
+00:02:51.624 --> 00:02:56.904
+Step two, दोनों platforms के लिए touch-first UI design.
+
+23
+00:02:57.192 --> 00:03:07.536
+Step three, app screens, APIs और admin panel की development, milestones में, ताकि आपको हर stage पर test build मिले।
+
+24
+00:03:07.824 --> 00:03:13.008
+Step four, कई real phones और OS versions पर testing.
+
+25
+00:03:13.296 --> 00:03:20.544
+और step five, Play Store और App Store पर release, और उसके बाद updates व support.
+
+26
+00:03:21.240 --> 00:03:29.136
+Technology में हम Flutter, React Native, Swift और Node.js जैसे proven tools use करते हैं।
+
+27
+00:03:29.424 --> 00:03:39.432
+Cross-platform approach से एक ही codebase से दोनों platforms चलते हैं, जिससे development और maintenance दोनों आसान हो जाते हैं।
+
+28
+00:03:40.128 --> 00:03:43.632
+इससे आपके business को क्या मिलेगा?
+
+29
+00:03:43.920 --> 00:03:51.216
+Customers तक सीधा channel. Notifications से customers बार-बार वापस आते हैं।
+
+30
+00:03:51.504 --> 00:03:57.336
+एक codebase से दो platforms, यानी कम effort और कम maintenance.
+
+31
+00:03:57.624 --> 00:04:03.408
+Field में भी भरोसेमंद, क्योंकि app offline-first design पर बना है।
+
+32
+00:04:03.696 --> 00:04:09.072
+और store release से लेकर updates तक, सब हम manage करते हैं।
+
+33
+00:04:09.768 --> 00:04:22.176
+ये apps किसके काम आते हैं? Ordering और delivery apps, field staff और contractor apps, booking apps, loyalty apps, और internal team apps.
+
+34
+00:04:22.464 --> 00:04:33.624
+Food delivery, agriculture, construction, retail, healthcare और logistics जैसी industries में ये apps रोज़ के काम को आसान बनाते हैं।
+
+35
+00:04:34.320 --> 00:04:45.000
+अगर आपके पास किसी app का idea है, या आप अपने business के लिए एक app बनवाना चाहते हैं, तो Cosmogeek Solutions से बात कीजिए।
+
+36
+00:04:45.288 --> 00:04:52.704
+हम Wardha, Maharashtra से 2019 से businesses के लिए digital solutions बना रहे हैं।
+
+37
+00:04:52.992 --> 00:05:00.456
+Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!

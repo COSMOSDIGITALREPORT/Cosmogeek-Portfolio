@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Shared interaction primitives — Deep Forest + Mint
+   ========================================================================== */
+
+/* ---------- InteractiveCard: mint spotlight ---------- */
+.icard {
+  --mx: 50%;
+  --my: 50%;
+  position: relative;
+  will-change: transform;
+}
+
+.icard-spotlight {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  background: radial-gradient(280px circle at var(--mx) var(--my), rgba(69, 214, 160, 0.2), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.icard:hover > .icard-spotlight,
+.icard:focus-within > .icard-spotlight {
+  opacity: 1;
+}
+
+/* Touch: show the spotlight as press feedback instead of on hover */
+@media (hover: none) {
+  .icard:active > .icard-spotlight {
+    opacity: 1;
+  }
+}
+
+/* ---------- Magnetic ---------- */
+.magnetic {
+  display: inline-flex;
+  will-change: transform;
+}
+
+/* ---------- DirectionalTrack ---------- */
+.dtrack {
+  --dtrack-gutter: max(1rem, calc((100vw - 1280px) / 2 + 2.5rem));
+  position: relative;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+}
+.dtrack-list {
+  display: flex;
+  gap: clamp(0.75rem, 1vw, 1rem);
+  width: max-content;
+  margin: 0;
+  padding-inline: var(--dtrack-gutter);
+  list-style: none;
+  will-change: transform;
+}
+.dtrack-group {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: stretch;
+  gap: clamp(0.75rem, 1vw, 1rem);
+  width: max-content;
+  padding-block: 1.25rem 1.75rem;
+}
+.dtrack--marquee.dtrack--left .dtrack-list {
+  animation: dtrack-move-left var(--dtrack-duration, 45s) linear infinite;
+}
+.dtrack--marquee.dtrack--right .dtrack-list {
+  flex-direction: row-reverse;
+  animation: dtrack-move-right var(--dtrack-duration, 45s) linear infinite;
+}
+.dtrack--marquee:hover .dtrack-list,
+.dtrack--marquee:focus-within .dtrack-list {
+  animation-play-state: paused;
+}
+.dtrack--marquee:focus-visible,
+.dtrack--swipe:focus-visible {
+  outline: 2px solid #45d6a0;
+  outline-offset: -2px;
+}
+.dtrack--swipe {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--dtrack-gutter);
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.dtrack--swipe::-webkit-scrollbar { display: none; }
+.dtrack--swipe .dtrack-group > * { scroll-snap-align: start; }
+@keyframes dtrack-move-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(calc(-1 * var(--dtrack-distance, 0px))); }
+}
+@keyframes dtrack-move-right {
+  from { transform: translateX(calc(-1 * var(--dtrack-distance, 0px))); }
+  to { transform: translateX(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dtrack--marquee .dtrack-list { animation: none; }
+}
+@media (max-width: 767px) {
+  .dtrack {
+    --dtrack-gutter: 1rem;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+}

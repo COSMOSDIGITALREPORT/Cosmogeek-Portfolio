@@ -1,0 +1,444 @@
+{
+ "slug": "digital-marketing",
+ "title": "Digital Marketing",
+ "language": "hi-IN",
+ "voice": "hi-IN-SwaraNeural",
+ "provider": "edge",
+ "generatedAt": "2026-10-15T17:11:35+00:00",
+ "duration": 251.352,
+ "audio": "narration.mp3",
+ "scenes": [
+  {
+   "id": "intro",
+   "template": "title",
+   "chapter": "Introduction",
+   "heading": "Digital Marketing with AI",
+   "subheading": "Data-driven growth: SEO, ads, content and analytics",
+   "chips": [
+    "SEO",
+    "Local SEO",
+    "Ads",
+    "Analytics"
+   ],
+   "cues": [
+    {
+     "hi": "नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम बात करेंगे हमारी Digital Marketing service की।",
+     "en": "Hello! Welcome to Cosmogeek Solutions. Today we will talk about our Digital Marketing service.",
+     "start": 0.504,
+     "end": 10.8
+    },
+    {
+     "hi": "एक अच्छा product तभी grow करता है, जब सही लोग उसे ढूंढ पाएं।",
+     "en": "A great product only grows when the right people can find it.",
+     "start": 11.088,
+     "end": 17.28
+    },
+    {
+     "hi": "हम digital marketing को measurable goals के आसपास plan करते हैं, और AI tools की मदद से research, testing और analysis तेज़ी से करते हैं।",
+     "en": "We plan digital marketing around measurable goals and use AI tools to speed up research, testing and analysis.",
+     "start": 17.568,
+     "end": 28.536
+    }
+   ],
+   "start": 0.504,
+   "end": 29.232
+  },
+  {
+   "id": "problems",
+   "template": "problems",
+   "chapter": "Problems",
+   "heading": "Problems we solve",
+   "items": [
+    "Low visibility in local search",
+    "Ad budget wasted on broad targeting",
+    "Traffic that does not convert",
+    "No clear reporting"
+   ],
+   "cues": [
+    {
+     "hi": "Businesses को marketing में ये problems आती हैं।",
+     "en": "These are the marketing problems businesses face.",
+     "start": 29.232,
+     "end": 33.168
+    },
+    {
+     "hi": "Local और industry searches में business का दिखाई न देना।",
+     "en": "The business not appearing in local and industry searches.",
+     "highlight": 0,
+     "start": 33.456,
+     "end": 38.544
+    },
+    {
+     "hi": "Broad targeting और untracked ads में budget बर्बाद होना।",
+     "en": "Budget wasted on broad targeting and untracked ads.",
+     "highlight": 1,
+     "start": 38.832,
+     "end": 43.68
+    },
+    {
+     "hi": "Website पर traffic तो आता है, लेकिन inquiries नहीं बनतीं।",
+     "en": "Traffic reaches the website, but does not turn into inquiries.",
+     "highlight": 2,
+     "start": 43.968,
+     "end": 49.296
+    },
+    {
+     "hi": "और ये पता ही न चलना कि marketing से असल में क्या return मिल रहा है।",
+     "en": "And never knowing what marketing actually returns.",
+     "highlight": 3,
+     "start": 49.584,
+     "end": 55.224
+    }
+   ],
+   "start": 29.232,
+   "end": 55.92
+  },
+  {
+   "id": "features",
+   "template": "features",
+   "chapter": "Features",
+   "heading": "What we do",
+   "items": [
+    {
+     "title": "SEO",
+     "desc": "Technical, on-page and site speed"
+    },
+    {
+     "title": "Local SEO",
+     "desc": "Google Business Profile and listings"
+    },
+    {
+     "title": "Paid advertising",
+     "desc": "Google Ads and social campaigns"
+    },
+    {
+     "title": "Social media & content",
+     "desc": "Content plans and creatives"
+    },
+    {
+     "title": "Conversion optimization",
+     "desc": "Better landing pages and CTAs"
+    },
+    {
+     "title": "Analytics & reporting",
+     "desc": "GA, Tag Manager, dashboards"
+    }
+   ],
+   "cues": [
+    {
+     "hi": "हमारी service में ये सब शामिल है।",
+     "en": "Our service covers all of this.",
+     "start": 55.92,
+     "end": 59.448
+    },
+    {
+     "hi": "SEO. Technical SEO, on-page optimization और site speed में सुधार।",
+     "en": "SEO: technical SEO, on-page optimization and site speed improvements.",
+     "highlight": 0,
+     "start": 59.736,
+     "end": 66.864
+    },
+    {
+     "hi": "Local SEO. Google Business Profile और local listings, Wardha, Maharashtra और उससे आगे के customers के लिए।",
+     "en": "Local SEO: Google Business Profile and local listings for customers in Wardha, Maharashtra and beyond.",
+     "highlight": 1,
+     "start": 67.152,
+     "end": 77.184
+    },
+    {
+     "hi": "Google Ads और social media पर targeted paid campaigns.",
+     "en": "Targeted paid campaigns on Google Ads and social media.",
+     "highlight": 2,
+     "start": 77.472,
+     "end": 82.32
+    },
+    {
+     "hi": "Social media content planning और creatives.",
+     "en": "Social media content planning and creatives.",
+     "highlight": 3,
+     "start": 82.608,
+     "end": 86.76
+    },
+    {
+     "hi": "Conversion optimization, यानी landing pages को बेहतर बनाना, ताकि visitor inquiry करे।",
+     "en": "Conversion optimization: improving landing pages so visitors send inquiries.",
+     "highlight": 4,
+     "start": 87.048,
+     "end": 94.848
+    },
+    {
+     "hi": "और Google Analytics, Tag Manager और dashboards के साथ साफ़ reporting.",
+     "en": "And clear reporting with Google Analytics, Tag Manager and dashboards.",
+     "highlight": 5,
+     "start": 95.136,
+     "end": 101.424
+    }
+   ],
+   "start": 55.92,
+   "end": 102.12
+  },
+  {
+   "id": "demo",
+   "template": "ui",
+   "variant": "marketing",
+   "chapter": "Live demo",
+   "heading": "How a campaign comes together",
+   "cues": [
+    {
+     "hi": "एक campaign कैसे काम करता है, देखिए। पहले keyword research. लोग आपकी service को किन शब्दों से search करते हैं।",
+     "en": "Here is how a campaign works. First, keyword research: the words people use to search for your service.",
+     "highlight": 0,
+     "start": 102.12,
+     "end": 113.064
+    },
+    {
+     "hi": "फिर SEO और ads से आपका business उन searches में ऊपर दिखने लगता है।",
+     "en": "Then SEO and ads help your business appear higher in those searches.",
+     "highlight": 1,
+     "start": 113.352,
+     "end": 119.4
+    },
+    {
+     "hi": "Visitors एक focused landing page पर आते हैं, जहाँ से वो inquiry या WhatsApp करते हैं।",
+     "en": "Visitors arrive on a focused landing page, where they send an inquiry or a WhatsApp message.",
+     "highlight": 2,
+     "start": 119.688,
+     "end": 126.768
+    },
+    {
+     "hi": "और dashboard में साफ़ दिखता है कि कौन सा channel leads ला रहा है।",
+     "en": "And the dashboard clearly shows which channel is bringing leads.",
+     "highlight": 3,
+     "start": 127.056,
+     "end": 132.672
+    }
+   ],
+   "start": 102.12,
+   "end": 133.368
+  },
+  {
+   "id": "process",
+   "template": "flow",
+   "chapter": "Process",
+   "heading": "Our marketing process",
+   "items": [
+    {
+     "title": "Audit",
+     "desc": "Strategy"
+    },
+    {
+     "title": "Foundation",
+     "desc": "Tracking & SEO fixes"
+    },
+    {
+     "title": "Launch",
+     "desc": "Live campaigns"
+    },
+    {
+     "title": "Optimize",
+     "desc": "Ongoing tests"
+    },
+    {
+     "title": "Report",
+     "desc": "Monthly report"
+    }
+   ],
+   "cues": [
+    {
+     "hi": "हमारा process पाँच steps का है।",
+     "en": "Our process has five steps.",
+     "start": 133.368,
+     "end": 136.68
+    },
+    {
+     "hi": "Market और keyword audit. Search demand, competitors और आपकी current presence को समझना।",
+     "en": "Market and keyword audit: understanding search demand, competitors and your current presence.",
+     "highlight": 0,
+     "start": 136.968,
+     "end": 145.344
+    },
+    {
+     "hi": "Foundation fixes. Technical SEO, tracking और Google Business Profile को ठीक करना।",
+     "en": "Foundation fixes: fixing technical SEO, tracking and your Google Business Profile.",
+     "highlight": 1,
+     "start": 145.632,
+     "end": 153.792
+    },
+    {
+     "hi": "Structured ad और content campaigns launch करना।",
+     "en": "Launching structured ad and content campaigns.",
+     "highlight": 2,
+     "start": 154.08,
+     "end": 158.328
+    },
+    {
+     "hi": "Keywords, audiences, creatives और landing pages को लगातार optimize करना।",
+     "en": "Continuously optimizing keywords, audiences, creatives and landing pages.",
+     "highlight": 3,
+     "start": 158.616,
+     "end": 165.216
+    },
+    {
+     "hi": "और हर महीने leads और cost की साफ़ report, अगले steps के साथ।",
+     "en": "And a clear monthly report on leads and cost, with next steps.",
+     "highlight": 4,
+     "start": 165.504,
+     "end": 171.432
+    }
+   ],
+   "start": 133.368,
+   "end": 172.128
+  },
+  {
+   "id": "tech",
+   "template": "tech",
+   "chapter": "Tools",
+   "heading": "Tools we use",
+   "items": [
+    "Google Analytics",
+    "Google Search Console",
+    "Google Tag Manager",
+    "Google Ads",
+    "Power BI",
+    "AI research tools"
+   ],
+   "cues": [
+    {
+     "hi": "Tools में Google Analytics, Search Console, Tag Manager, Google Ads और Power BI.",
+     "en": "Our tools include Google Analytics, Search Console, Tag Manager, Google Ads and Power BI.",
+     "start": 172.128,
+     "end": 179.592
+    },
+    {
+     "hi": "साथ में AI tools, जो keyword research, ad copy testing और performance analysis को तेज़ बनाते हैं।",
+     "en": "Along with AI tools that speed up keyword research, ad copy testing and performance analysis.",
+     "start": 179.88,
+     "end": 188.184
+    }
+   ],
+   "start": 172.128,
+   "end": 188.88
+  },
+  {
+   "id": "benefits",
+   "template": "benefits",
+   "chapter": "Benefits",
+   "heading": "Benefits for your business",
+   "items": [
+    {
+     "title": "Be found locally",
+     "desc": "Nearby customers find you"
+    },
+    {
+     "title": "Spend smarter",
+     "desc": "Budget focused on likely buyers"
+    },
+    {
+     "title": "More conversions",
+     "desc": "Visitors become leads"
+    },
+    {
+     "title": "Clear reporting",
+     "desc": "Know what works"
+    }
+   ],
+   "cues": [
+    {
+     "hi": "तो इससे आपको क्या मिलेगा?",
+     "en": "So what do you get?",
+     "start": 188.88,
+     "end": 191.856
+    },
+    {
+     "hi": "Local customers आपको आसानी से ढूंढ पाते हैं।",
+     "en": "Local customers can find you easily.",
+     "highlight": 0,
+     "start": 192.144,
+     "end": 196.704
+    },
+    {
+     "hi": "Budget उन लोगों पर खर्च होता है जो सच में खरीद सकते हैं।",
+     "en": "Your budget is spent on people who are genuinely likely to buy.",
+     "highlight": 1,
+     "start": 196.992,
+     "end": 201.96
+    },
+    {
+     "hi": "Visitors ज़्यादा संख्या में leads में बदलते हैं।",
+     "en": "More visitors turn into leads.",
+     "highlight": 2,
+     "start": 202.248,
+     "end": 206.232
+    },
+    {
+     "hi": "और साफ़ reports से पता रहता है कि क्या काम कर रहा है, और क्या सुधारना है।",
+     "en": "And clear reports show what is working and what to improve.",
+     "highlight": 3,
+     "start": 206.52,
+     "end": 213.0
+    }
+   ],
+   "start": 188.88,
+   "end": 213.696
+  },
+  {
+   "id": "usecases",
+   "template": "usecases",
+   "chapter": "Use cases",
+   "heading": "Who is it for?",
+   "items": [
+    "Local business visibility",
+    "Lead generation",
+    "Product launches",
+    "E-commerce growth",
+    "Brand awareness"
+   ],
+   "industries": [
+    "Real Estate",
+    "Education",
+    "Healthcare",
+    "Retail",
+    "Hospitality",
+    "Services"
+   ],
+   "cues": [
+    {
+     "hi": "Local business visibility, lead generation, product launches, e-commerce growth, और brand awareness.",
+     "en": "Local business visibility, lead generation, product launches, e-commerce growth and brand awareness.",
+     "start": 213.696,
+     "end": 222.408
+    },
+    {
+     "hi": "Real estate, education, healthcare, retail, hospitality और service businesses के लिए हम campaigns plan करते हैं।",
+     "en": "We plan campaigns for real estate, education, healthcare, retail, hospitality and service businesses.",
+     "start": 222.696,
+     "end": 232.2
+    }
+   ],
+   "start": 213.696,
+   "end": 232.896
+  },
+  {
+   "id": "cta",
+   "template": "cta",
+   "chapter": "Get started",
+   "heading": "Grow with data-driven marketing",
+   "cues": [
+    {
+     "hi": "अपने business की online growth शुरू करना चाहते हैं? Cosmogeek Solutions से marketing discussion के लिए संपर्क कीजिए।",
+     "en": "Want to start growing your business online? Contact Cosmogeek Solutions for a marketing discussion.",
+     "start": 232.896,
+     "end": 242.4
+    },
+    {
+     "hi": "Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!",
+     "en": "Click Start a Project, or call or WhatsApp us. Thank you!",
+     "start": 242.688,
+     "end": 250.152
+    }
+   ],
+   "start": 232.896,
+   "end": 251.352
+  }
+ ]
+}

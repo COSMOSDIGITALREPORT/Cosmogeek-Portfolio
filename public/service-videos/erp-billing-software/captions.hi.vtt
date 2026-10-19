@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:00.504 --> 00:00:10.752
+नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम समझेंगे हमारा ERP और Billing Software.
+
+2
+00:00:11.040 --> 00:00:21.888
+जब stock एक spreadsheet में हो, invoices दूसरी में, और payments किसी notebook में, तो owner को business की साफ़ तस्वीर कभी नहीं मिलती।
+
+3
+00:00:22.176 --> 00:00:29.256
+हमारा ERP और billing software इन सब departments को एक connected system में जोड़ देता है।
+
+4
+00:00:29.952 --> 00:00:35.424
+पहले वो problems जो हर trading और manufacturing business जानता है।
+
+5
+00:00:35.712 --> 00:00:43.200
+अलग-अलग spreadsheets की वजह से stock mismatch, और ज़रूरी items का stock खत्म हो जाना।
+
+6
+00:00:43.488 --> 00:00:48.888
+Peak hours में slow billing counter, और customers की लंबी लाइन।
+
+7
+00:00:49.176 --> 00:00:54.720
+Manual GST calculation में गलतियाँ, और compliance का tension.
+
+8
+00:00:55.008 --> 00:01:01.584
+और sales, outstanding dues और branches की performance का real-time view न होना।
+
+9
+00:01:02.280 --> 00:01:05.424
+अब इसके main modules देखते हैं।
+
+10
+00:01:05.712 --> 00:01:14.616
+Inventory management. कई warehouses का stock, batches, low-stock alerts और stock transfers.
+
+11
+00:01:14.904 --> 00:01:24.072
+POS और GST billing. Barcode से fast billing, GST invoice, receipt printing और returns.
+
+12
+00:01:24.360 --> 00:01:32.904
+Sales और purchases. Quotations, sales orders, purchase orders और supplier management.
+
+13
+00:01:33.192 --> 00:01:41.832
+Payments और ledgers. UPI, card और cash payments, customer ledger, और credit alerts.
+
+14
+00:01:42.120 --> 00:01:48.240
+Role-based access और audit logs, ताकि पता रहे किसने क्या बदला।
+
+15
+00:01:48.528 --> 00:01:55.800
+और sales, profit, stock और GST की reports, dashboards और exports के साथ।
+
+16
+00:01:56.496 --> 00:02:04.272
+एक example देखिए। Counter पर barcode scan करते ही items invoice में जुड़ते जाते हैं।
+
+17
+00:02:04.560 --> 00:02:11.616
+GST अपने आप calculate होता है, सही HSN code और tax slab के साथ।
+
+18
+00:02:11.904 --> 00:02:18.696
+Bill save होते ही inventory में stock कम हो जाता है, और कम stock पर alert आता है।
+
+19
+00:02:18.984 --> 00:02:25.872
+और owner के dashboard पर आज की sales और outstanding payments तुरंत update हो जाती हैं।
+
+20
+00:02:26.568 --> 00:02:33.312
+हम ERP को phases में implement करते हैं, ताकि team आराम से adopt कर सके।
+
+21
+00:02:33.600 --> 00:02:42.288
+पहले workflow mapping. Departments, invoice formats, tax slabs और approvals को समझना।
+
+22
+00:02:42.576 --> 00:02:47.064
+फिर database, roles और security का design.
+
+23
+00:02:47.352 --> 00:02:53.520
+उसके बाद modules phases में बनते हैं, सबसे ज़रूरी module से शुरू करके।
+
+24
+00:02:53.808 --> 00:02:59.712
+पुराने data का migration, और printers व barcode scanners का setup.
+
+25
+00:03:00.000 --> 00:03:06.984
+और आखिर में staff training, pilot run और go-live, साथ में automatic backups.
+
+26
+00:03:07.680 --> 00:03:16.992
+Technology में React.js, Node.js, Next.js, PostgreSQL और MySQL.
+
+27
+00:03:17.280 --> 00:03:26.712
+ज़रूरत हो तो offline billing भी, जिससे internet जाने पर भी counter चलता रहे, और बाद में data sync हो जाए।
+
+28
+00:03:27.408 --> 00:03:30.432
+आपके business के लिए फ़ायदे।
+
+29
+00:03:30.720 --> 00:03:38.496
+एक single source of truth. Stock, sales, purchases और accounts सब connected.
+
+30
+00:03:38.784 --> 00:03:43.608
+Fast billing, जिससे counter पर लाइन छोटी होती है।
+
+31
+00:03:43.896 --> 00:03:50.400
+GST-ready system, automatic tax calculation और GST reports के साथ।
+
+32
+00:03:50.688 --> 00:03:57.552
+और बेहतर cash flow, क्योंकि outstanding dues और reminders हमेशा सामने रहते हैं।
+
+33
+00:03:58.248 --> 00:04:08.640
+Retail और wholesale billing, distributor management, manufacturing operations, multi-branch inventory, और clinic या service billing.
+
+34
+00:04:08.928 --> 00:04:18.696
+Retail, distribution, manufacturing, healthcare, pharma और FMCG businesses के लिए ये system बहुत useful है।
+
+35
+00:04:19.392 --> 00:04:31.944
+अपने पूरे business को एक system में लाना चाहते हैं? तो Cosmogeek Solutions से बात कीजिए। हम आपके workflow के हिसाब से demo और plan देंगे।
+
+36
+00:04:32.232 --> 00:04:39.696
+Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!

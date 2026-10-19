@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.504 --> 00:00:11.568
+नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम बात करेंगे AI Automation और AI Solutions के बारे में।
+
+2
+00:00:11.856 --> 00:00:26.040
+कई teams हर हफ़्ते घंटों repetitive काम में लगाती हैं। एक system से दूसरे में data copy करना, documents पढ़ना, एक ही सवाल का बार-बार जवाब देना, और reports बनाना।
+
+3
+00:00:26.328 --> 00:00:34.848
+AI और automation ये काम संभाल सकते हैं, ताकि आपकी team decisions और customers पर focus कर सके।
+
+4
+00:00:35.544 --> 00:00:41.112
+पहले देखते हैं वो problems जिन्हें AI automation solve करता है।
+
+5
+00:00:41.400 --> 00:00:49.344
+Manual data entry और repetitive admin tasks, जिनमें बहुत time जाता है और गलतियाँ भी होती हैं।
+
+6
+00:00:49.632 --> 00:00:56.112
+Data अलग-अलग systems में बिखरा होना, जिससे decisions लेने में देर होती है।
+
+7
+00:00:56.400 --> 00:01:03.528
+Customer queries का जवाब देर से जाना, क्योंकि first-level support automated नहीं है।
+
+8
+00:01:03.816 --> 00:01:08.688
+और teams के बीच काम की handoff में consistency की कमी।
+
+9
+00:01:09.384 --> 00:01:12.936
+अब देखते हैं हम क्या-क्या बनाते हैं।
+
+10
+00:01:13.224 --> 00:01:22.752
+AI assistants और chatbots, जो आपके business की जानकारी पर trained होते हैं और common सवालों का जवाब देते हैं।
+
+11
+00:01:23.040 --> 00:01:31.464
+Document extraction. Invoices, forms और PDFs को पढ़कर structured data में बदलना।
+
+12
+00:01:31.752 --> 00:01:39.648
+Workflow automation, यानी automatic approvals, notifications और tools के बीच data sync.
+
+13
+00:01:39.936 --> 00:01:47.832
+LLM integrations, जिससे आपके existing software और website में AI features जुड़ जाते हैं।
+
+14
+00:01:48.120 --> 00:01:54.120
+Predictive analytics, आपके पुराने data से trends और demand की समझ।
+
+15
+00:01:54.408 --> 00:02:01.632
+और human-in-the-loop design, ताकि ज़रूरी जगह पर control हमेशा इंसान के हाथ में रहे।
+
+16
+00:02:02.328 --> 00:02:09.312
+एक example देखिए। एक supplier का invoice email या WhatsApp पर आता है।
+
+17
+00:02:09.600 --> 00:02:19.344
+AI उस invoice को पढ़ता है, और supplier name, amount, GST और date जैसे fields अपने आप निकाल लेता है।
+
+18
+00:02:19.632 --> 00:02:27.720
+फिर workflow manager को approval के लिए भेजता है। यहाँ इंसान check करके approve करता है।
+
+19
+00:02:28.008 --> 00:02:36.528
+Approve होते ही entry आपके ERP या accounting system में चली जाती है, और dashboard update हो जाता है।
+
+20
+00:02:37.224 --> 00:02:42.528
+हमारा process practical है और छोटे pilot से शुरू होता है।
+
+21
+00:02:42.816 --> 00:02:51.864
+Step one, process audit. हम पता लगाते हैं कि कौन से काम automation के लिए सबसे सही हैं।
+
+22
+00:02:52.152 --> 00:03:01.056
+Step two, solution design. सही AI models, data flow और security boundaries चुनना।
+
+23
+00:03:01.344 --> 00:03:06.864
+Step three, एक focused use case पर pilot बनाकर test करना।
+
+24
+00:03:07.152 --> 00:03:14.520
+Step four, CRM, ERP और databases से integration, और team training.
+
+25
+00:03:14.808 --> 00:03:21.000
+और step five, accuracy और results को monitor करके लगातार सुधार।
+
+26
+00:03:21.696 --> 00:03:32.136
+Technology में हम Python, AI और machine learning models, LLMs, Node.js, PostgreSQL और Docker use करते हैं।
+
+27
+00:03:32.424 --> 00:03:39.864
+आपका data secure boundaries में रहता है, और public models को train करने के लिए use नहीं होता।
+
+28
+00:03:40.560 --> 00:03:43.152
+तो इसके फ़ायदे क्या हैं?
+
+29
+00:03:43.440 --> 00:03:49.056
+Time की बचत। Repetitive काम automatic हो जाता है।
+
+30
+00:03:49.344 --> 00:03:55.032
+कम errors, क्योंकि processing हर बार एक जैसे rules से होती है।
+
+31
+00:03:55.320 --> 00:04:02.808
+तेज़ responses. AI assistants दिन हो या रात, तुरंत जवाब देते हैं।
+
+32
+00:04:03.096 --> 00:04:08.952
+और बेहतर decisions, आपके अपने data से बने insights के साथ।
+
+33
+00:04:09.648 --> 00:04:22.656
+AI कहाँ काम आता है? Customer support assistants, invoice और document processing, lead qualification, reports की summaries, और inventory व demand insights.
+
+34
+00:04:22.944 --> 00:04:32.448
+Agriculture से लेकर retail, manufacturing, healthcare और education तक, हर industry में automation के मौके होते हैं।
+
+35
+00:04:33.144 --> 00:04:43.272
+अगर आप जानना चाहते हैं कि आपके business में AI कहाँ और कैसे मदद कर सकता है, तो Cosmogeek Solutions से बात कीजिए।
+
+36
+00:04:43.560 --> 00:04:48.792
+हम आपके processes को समझकर practical recommendations देंगे।
+
+37
+00:04:49.080 --> 00:04:56.544
+Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!

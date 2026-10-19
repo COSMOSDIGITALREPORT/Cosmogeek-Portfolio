@@ -1,0 +1,443 @@
+{
+ "slug": "erp-billing-software",
+ "title": "ERP & Billing Software",
+ "language": "hi-IN",
+ "voice": "hi-IN-SwaraNeural",
+ "provider": "edge",
+ "generatedAt": "2026-10-15T17:12:51+00:00",
+ "duration": 280.896,
+ "audio": "narration.mp3",
+ "scenes": [
+  {
+   "id": "intro",
+   "template": "title",
+   "chapter": "Introduction",
+   "heading": "ERP & Billing Software",
+   "subheading": "Inventory, sales, purchases, GST billing and reports in one place",
+   "chips": [
+    "GST Billing",
+    "Inventory",
+    "Ledgers",
+    "Dashboards"
+   ],
+   "cues": [
+    {
+     "hi": "नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम समझेंगे हमारा ERP और Billing Software.",
+     "en": "Hello! Welcome to Cosmogeek Solutions. Today we will explain our ERP and Billing Software.",
+     "start": 0.504,
+     "end": 10.752
+    },
+    {
+     "hi": "जब stock एक spreadsheet में हो, invoices दूसरी में, और payments किसी notebook में, तो owner को business की साफ़ तस्वीर कभी नहीं मिलती।",
+     "en": "When stock is in one spreadsheet, invoices in another and payments in a notebook, the owner never gets a clear picture of the business.",
+     "start": 11.04,
+     "end": 21.888
+    },
+    {
+     "hi": "हमारा ERP और billing software इन सब departments को एक connected system में जोड़ देता है।",
+     "en": "Our ERP and billing software connects all these departments into one system.",
+     "start": 22.176,
+     "end": 29.256
+    }
+   ],
+   "start": 0.504,
+   "end": 29.952
+  },
+  {
+   "id": "problems",
+   "template": "problems",
+   "chapter": "Problems",
+   "heading": "Problems we solve",
+   "items": [
+    "Stock mismatches and stock-outs",
+    "Slow billing counters",
+    "GST calculation errors",
+    "No real-time business view"
+   ],
+   "cues": [
+    {
+     "hi": "पहले वो problems जो हर trading और manufacturing business जानता है।",
+     "en": "First, the problems every trading and manufacturing business knows.",
+     "start": 29.952,
+     "end": 35.424
+    },
+    {
+     "hi": "अलग-अलग spreadsheets की वजह से stock mismatch, और ज़रूरी items का stock खत्म हो जाना।",
+     "en": "Stock mismatches from separate spreadsheets, and essential items running out.",
+     "highlight": 0,
+     "start": 35.712,
+     "end": 43.2
+    },
+    {
+     "hi": "Peak hours में slow billing counter, और customers की लंबी लाइन।",
+     "en": "Slow billing counters and long customer queues at peak hours.",
+     "highlight": 1,
+     "start": 43.488,
+     "end": 48.888
+    },
+    {
+     "hi": "Manual GST calculation में गलतियाँ, और compliance का tension.",
+     "en": "Mistakes in manual GST calculation, and compliance stress.",
+     "highlight": 2,
+     "start": 49.176,
+     "end": 54.72
+    },
+    {
+     "hi": "और sales, outstanding dues और branches की performance का real-time view न होना।",
+     "en": "And no real-time view of sales, outstanding dues and branch performance.",
+     "highlight": 3,
+     "start": 55.008,
+     "end": 61.584
+    }
+   ],
+   "start": 29.952,
+   "end": 62.28
+  },
+  {
+   "id": "features",
+   "template": "features",
+   "chapter": "Features",
+   "heading": "Key modules",
+   "items": [
+    {
+     "title": "Inventory",
+     "desc": "Multi-warehouse stock, batches, alerts"
+    },
+    {
+     "title": "POS & GST billing",
+     "desc": "Barcode billing, GST invoices, returns"
+    },
+    {
+     "title": "Sales & purchases",
+     "desc": "Quotations, orders, suppliers"
+    },
+    {
+     "title": "Payments & ledgers",
+     "desc": "UPI, card, cash, credit alerts"
+    },
+    {
+     "title": "Roles & audit logs",
+     "desc": "Access control with activity trail"
+    },
+    {
+     "title": "Reports & dashboards",
+     "desc": "Sales, profit, stock and GST reports"
+    }
+   ],
+   "cues": [
+    {
+     "hi": "अब इसके main modules देखते हैं।",
+     "en": "Now let us look at the main modules.",
+     "start": 62.28,
+     "end": 65.424
+    },
+    {
+     "hi": "Inventory management. कई warehouses का stock, batches, low-stock alerts और stock transfers.",
+     "en": "Inventory management: stock across warehouses, batches, low-stock alerts and transfers.",
+     "highlight": 0,
+     "start": 65.712,
+     "end": 74.616
+    },
+    {
+     "hi": "POS और GST billing. Barcode से fast billing, GST invoice, receipt printing और returns.",
+     "en": "POS and GST billing: fast barcode billing, GST invoices, receipt printing and returns.",
+     "highlight": 1,
+     "start": 74.904,
+     "end": 84.072
+    },
+    {
+     "hi": "Sales और purchases. Quotations, sales orders, purchase orders और supplier management.",
+     "en": "Sales and purchases: quotations, sales orders, purchase orders and supplier management.",
+     "highlight": 2,
+     "start": 84.36,
+     "end": 92.904
+    },
+    {
+     "hi": "Payments और ledgers. UPI, card और cash payments, customer ledger, और credit alerts.",
+     "en": "Payments and ledgers: UPI, card and cash payments, customer ledgers and credit alerts.",
+     "highlight": 3,
+     "start": 93.192,
+     "end": 101.832
+    },
+    {
+     "hi": "Role-based access और audit logs, ताकि पता रहे किसने क्या बदला।",
+     "en": "Role-based access and audit logs, so you know who changed what.",
+     "highlight": 4,
+     "start": 102.12,
+     "end": 108.24
+    },
+    {
+     "hi": "और sales, profit, stock और GST की reports, dashboards और exports के साथ।",
+     "en": "And sales, profit, stock and GST reports, with dashboards and exports.",
+     "highlight": 5,
+     "start": 108.528,
+     "end": 115.8
+    }
+   ],
+   "start": 62.28,
+   "end": 116.496
+  },
+  {
+   "id": "demo",
+   "template": "ui",
+   "variant": "billing",
+   "chapter": "Live demo",
+   "heading": "Billing to dashboard, in one flow",
+   "cues": [
+    {
+     "hi": "एक example देखिए। Counter पर barcode scan करते ही items invoice में जुड़ते जाते हैं।",
+     "en": "Here is an example. At the counter, items are added to the invoice as soon as their barcode is scanned.",
+     "highlight": 0,
+     "start": 116.496,
+     "end": 124.272
+    },
+    {
+     "hi": "GST अपने आप calculate होता है, सही HSN code और tax slab के साथ।",
+     "en": "GST is calculated automatically, with the correct HSN code and tax slab.",
+     "highlight": 1,
+     "start": 124.56,
+     "end": 131.616
+    },
+    {
+     "hi": "Bill save होते ही inventory में stock कम हो जाता है, और कम stock पर alert आता है।",
+     "en": "As soon as the bill is saved, stock is reduced in inventory, and low stock triggers an alert.",
+     "highlight": 2,
+     "start": 131.904,
+     "end": 138.696
+    },
+    {
+     "hi": "और owner के dashboard पर आज की sales और outstanding payments तुरंत update हो जाती हैं।",
+     "en": "And today's sales and outstanding payments update instantly on the owner's dashboard.",
+     "highlight": 3,
+     "start": 138.984,
+     "end": 145.872
+    }
+   ],
+   "start": 116.496,
+   "end": 146.568
+  },
+  {
+   "id": "process",
+   "template": "flow",
+   "chapter": "Process",
+   "heading": "Implementation process",
+   "items": [
+    {
+     "title": "Workflow Mapping",
+     "desc": "Module plan"
+    },
+    {
+     "title": "System Design",
+     "desc": "Data model & roles"
+    },
+    {
+     "title": "Module Build",
+     "desc": "Phased modules"
+    },
+    {
+     "title": "Migration & Setup",
+     "desc": "Data & devices"
+    },
+    {
+     "title": "Training & Go-live",
+     "desc": "Live system"
+    }
+   ],
+   "cues": [
+    {
+     "hi": "हम ERP को phases में implement करते हैं, ताकि team आराम से adopt कर सके।",
+     "en": "We implement ERP in phases, so your team can adopt it comfortably.",
+     "start": 146.568,
+     "end": 153.312
+    },
+    {
+     "hi": "पहले workflow mapping. Departments, invoice formats, tax slabs और approvals को समझना।",
+     "en": "First, workflow mapping: understanding departments, invoice formats, tax slabs and approvals.",
+     "highlight": 0,
+     "start": 153.6,
+     "end": 162.288
+    },
+    {
+     "hi": "फिर database, roles और security का design.",
+     "en": "Then designing the database, roles and security.",
+     "highlight": 1,
+     "start": 162.576,
+     "end": 167.064
+    },
+    {
+     "hi": "उसके बाद modules phases में बनते हैं, सबसे ज़रूरी module से शुरू करके।",
+     "en": "Next, modules are built in phases, starting with the most critical one.",
+     "highlight": 2,
+     "start": 167.352,
+     "end": 173.52
+    },
+    {
+     "hi": "पुराने data का migration, और printers व barcode scanners का setup.",
+     "en": "Migrating existing data, and setting up printers and barcode scanners.",
+     "highlight": 3,
+     "start": 173.808,
+     "end": 179.712
+    },
+    {
+     "hi": "और आखिर में staff training, pilot run और go-live, साथ में automatic backups.",
+     "en": "And finally staff training, a pilot run and go-live, along with automatic backups.",
+     "highlight": 4,
+     "start": 180.0,
+     "end": 186.984
+    }
+   ],
+   "start": 146.568,
+   "end": 187.68
+  },
+  {
+   "id": "tech",
+   "template": "tech",
+   "chapter": "Technologies",
+   "heading": "Technologies we use",
+   "items": [
+    "React.js",
+    "Node.js",
+    "Next.js",
+    "PostgreSQL",
+    "MySQL"
+   ],
+   "cues": [
+    {
+     "hi": "Technology में React.js, Node.js, Next.js, PostgreSQL और MySQL.",
+     "en": "On the technology side: React.js, Node.js, Next.js, PostgreSQL and MySQL.",
+     "start": 187.68,
+     "end": 196.992
+    },
+    {
+     "hi": "ज़रूरत हो तो offline billing भी, जिससे internet जाने पर भी counter चलता रहे, और बाद में data sync हो जाए।",
+     "en": "Offline billing is available when needed, so the counter keeps running without internet and syncs later.",
+     "start": 197.28,
+     "end": 206.712
+    }
+   ],
+   "start": 187.68,
+   "end": 207.408
+  },
+  {
+   "id": "benefits",
+   "template": "benefits",
+   "chapter": "Benefits",
+   "heading": "Benefits for your business",
+   "items": [
+    {
+     "title": "One source of truth",
+     "desc": "Stock, sales and accounts connected"
+    },
+    {
+     "title": "Faster billing",
+     "desc": "Barcode billing and shortcuts"
+    },
+    {
+     "title": "GST-ready",
+     "desc": "Automatic tax and GST reports"
+    },
+    {
+     "title": "Better cash flow",
+     "desc": "Dues and reminders always visible"
+    }
+   ],
+   "cues": [
+    {
+     "hi": "आपके business के लिए फ़ायदे।",
+     "en": "The benefits for your business.",
+     "start": 207.408,
+     "end": 210.432
+    },
+    {
+     "hi": "एक single source of truth. Stock, sales, purchases और accounts सब connected.",
+     "en": "A single source of truth, with stock, sales, purchases and accounts all connected.",
+     "highlight": 0,
+     "start": 210.72,
+     "end": 218.496
+    },
+    {
+     "hi": "Fast billing, जिससे counter पर लाइन छोटी होती है।",
+     "en": "Fast billing, which shortens queues at the counter.",
+     "highlight": 1,
+     "start": 218.784,
+     "end": 223.608
+    },
+    {
+     "hi": "GST-ready system, automatic tax calculation और GST reports के साथ।",
+     "en": "A GST-ready system with automatic tax calculation and GST reports.",
+     "highlight": 2,
+     "start": 223.896,
+     "end": 230.4
+    },
+    {
+     "hi": "और बेहतर cash flow, क्योंकि outstanding dues और reminders हमेशा सामने रहते हैं।",
+     "en": "And better cash flow, because outstanding dues and reminders are always in view.",
+     "highlight": 3,
+     "start": 230.688,
+     "end": 237.552
+    }
+   ],
+   "start": 207.408,
+   "end": 238.248
+  },
+  {
+   "id": "usecases",
+   "template": "usecases",
+   "chapter": "Use cases",
+   "heading": "Who is it for?",
+   "items": [
+    "Retail & wholesale billing",
+    "Distributor management",
+    "Manufacturing operations",
+    "Multi-branch inventory",
+    "Clinic & service billing"
+   ],
+   "industries": [
+    "Retail",
+    "Wholesale & Distribution",
+    "Manufacturing",
+    "Healthcare",
+    "Pharma",
+    "FMCG"
+   ],
+   "cues": [
+    {
+     "hi": "Retail और wholesale billing, distributor management, manufacturing operations, multi-branch inventory, और clinic या service billing.",
+     "en": "Retail and wholesale billing, distributor management, manufacturing operations, multi-branch inventory, and clinic or service billing.",
+     "start": 238.248,
+     "end": 248.64
+    },
+    {
+     "hi": "Retail, distribution, manufacturing, healthcare, pharma और FMCG businesses के लिए ये system बहुत useful है।",
+     "en": "This system is very useful for retail, distribution, manufacturing, healthcare, pharma and FMCG businesses.",
+     "start": 248.928,
+     "end": 258.696
+    }
+   ],
+   "start": 238.248,
+   "end": 259.392
+  },
+  {
+   "id": "cta",
+   "template": "cta",
+   "chapter": "Get started",
+   "heading": "Connect your whole business",
+   "cues": [
+    {
+     "hi": "अपने पूरे business को एक system में लाना चाहते हैं? तो Cosmogeek Solutions से बात कीजिए। हम आपके workflow के हिसाब से demo और plan देंगे।",
+     "en": "Want to bring your entire business into one system? Talk to Cosmogeek Solutions. We will share a demo and plan based on your workflow.",
+     "start": 259.392,
+     "end": 271.944
+    },
+    {
+     "hi": "Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!",
+     "en": "Click Start a Project, or call or WhatsApp us. Thank you!",
+     "start": 272.232,
+     "end": 279.696
+    }
+   ],
+   "start": 259.392,
+   "end": 280.896
+  }
+ ]
+}

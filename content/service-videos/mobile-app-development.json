@@ -1,0 +1,149 @@
+{
+  "slug": "mobile-app-development",
+  "title": "Mobile App Development",
+  "voice": "hi-IN-SwaraNeural",
+  "scenes": [
+    {
+      "id": "intro",
+      "template": "title",
+      "chapter": "Introduction",
+      "heading": "Mobile App Development",
+      "subheading": "Android & iOS apps built for real-world usage",
+      "chips": ["Android", "iOS", "Offline-ready", "Secure"],
+      "cues": [
+        { "hi": "नमस्ते! Cosmogeek Solutions में आपका स्वागत है। इस video में हम समझेंगे हमारी Mobile App Development service.", "en": "Hello! Welcome to Cosmogeek Solutions. In this video we will explain our Mobile App Development service." },
+        { "hi": "आपके customers और field teams दिन का ज़्यादातर समय अपने phone पर बिताते हैं। एक अच्छा mobile app आपकी service को सीधे उनके हाथ में पहुँचा देता है।", "en": "Your customers and field teams spend most of their day on their phones. A good mobile app puts your service directly in their hands." },
+        { "hi": "हम Android और iOS apps बनाते हैं, ज़्यादातर Flutter या React Native से, एक ही codebase में, secure backend और admin panel के साथ।", "en": "We build Android and iOS apps, usually from a single Flutter or React Native codebase, with a secure backend and admin panel." }
+      ]
+    },
+    {
+      "id": "problems",
+      "template": "problems",
+      "chapter": "Problems",
+      "heading": "Problems we solve",
+      "items": [
+        "Inconsistent experience across devices",
+        "Data lost when offline",
+        "Slow uploads and laggy tracking",
+        "Complex app store releases"
+      ],
+      "cues": [
+        { "hi": "पहले समझते हैं कि mobile apps में आम तौर पर कौन सी problems आती हैं।", "en": "First, let us understand the problems that commonly come up with mobile apps." },
+        { "hi": "पहली, अलग-अलग Android और iOS devices पर app का experience एक जैसा नहीं रहता।", "en": "One, the app experience is inconsistent across different Android and iOS devices.", "highlight": 0 },
+        { "hi": "दूसरी, field में internet कमज़ोर हो तो data खो जाता है, क्योंकि app offline काम नहीं करता।", "en": "Two, data is lost in the field when the internet is weak, because the app does not work offline.", "highlight": 1 },
+        { "hi": "तीसरी, photos upload करने या live location tracking में बहुत lag होना।", "en": "Three, heavy lag when uploading photos or tracking live location.", "highlight": 2 },
+        { "hi": "और चौथी, Play Store और App Store के guidelines और release process काफ़ी complex होते हैं।", "en": "And four, Play Store and App Store guidelines and release processes are quite complex.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "features",
+      "template": "features",
+      "chapter": "Features",
+      "heading": "What we build",
+      "items": [
+        { "title": "Android & iOS apps", "desc": "Flutter or React Native, native where needed" },
+        { "title": "Touch-first UX", "desc": "Simple screens built for one-hand use" },
+        { "title": "Offline sync", "desc": "Works without internet, syncs later" },
+        { "title": "Notifications & location", "desc": "Push alerts, GPS and maps" },
+        { "title": "Secure login & payments", "desc": "OTP, biometrics and payment gateways" },
+        { "title": "Admin panel & APIs", "desc": "Manage all app data from the web" }
+      ],
+      "cues": [
+        { "hi": "अब देखते हैं कि हमारी service में क्या-क्या शामिल है।", "en": "Now let us see what our service includes." },
+        { "hi": "Android और iOS apps. Cross-platform development, और ज़रूरत हो तो native modules भी।", "en": "Android and iOS apps: cross-platform development, with native modules when needed.", "highlight": 0 },
+        { "hi": "Touch-first UX. ऐसी simple screens जो एक हाथ से आराम से use हो सकें।", "en": "Touch-first UX: simple screens that are comfortable to use with one hand.", "highlight": 1 },
+        { "hi": "Offline sync. Internet न हो तब भी काम चलता रहे, और connection आते ही data अपने आप sync हो जाए।", "en": "Offline sync: work continues without internet, and data syncs automatically when the connection returns.", "highlight": 2 },
+        { "hi": "Push notifications, GPS tracking और maps integration.", "en": "Push notifications, GPS tracking and maps integration.", "highlight": 3 },
+        { "hi": "OTP और biometric login के साथ secure access, और payment gateway integration.", "en": "Secure access with OTP and biometric login, plus payment gateway integration.", "highlight": 4 },
+        { "hi": "और एक web admin panel व backend APIs, जिससे आप app का पूरा data manage कर सकें।", "en": "And a web admin panel with backend APIs, so you can manage all of the app's data.", "highlight": 5 }
+      ]
+    },
+    {
+      "id": "demo",
+      "template": "ui",
+      "variant": "phone",
+      "chapter": "Live demo",
+      "heading": "Inside a typical business app",
+      "cues": [
+        { "hi": "एक example देखिए। ये एक ordering app की home screen है, जहाँ customer products देखकर सीधे order कर सकता है।", "en": "Here is an example. This is the home screen of an ordering app, where customers browse products and order directly.", "highlight": 0 },
+        { "hi": "Order confirm होते ही push notification आता है, और customer को हर update तुरंत मिलता है।", "en": "As soon as an order is confirmed, a push notification arrives, so the customer gets every update instantly.", "highlight": 1 },
+        { "hi": "Delivery के दौरान live tracking दिखती है, map पर, real time में।", "en": "During delivery, live tracking appears on the map in real time.", "highlight": 2 },
+        { "hi": "और अगर network चला जाए, तो app offline data save करता है, और बाद में sync कर देता है।", "en": "And if the network drops, the app saves data offline and syncs it later.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "process",
+      "template": "flow",
+      "chapter": "Process",
+      "heading": "Our app development process",
+      "items": [
+        { "title": "Prototype", "desc": "Clickable prototype" },
+        { "title": "UI Design", "desc": "App screens" },
+        { "title": "Development", "desc": "Test builds" },
+        { "title": "Device Testing", "desc": "QA report" },
+        { "title": "Store Release", "desc": "Published app" }
+      ],
+      "cues": [
+        { "hi": "अब हमारा process, step by step.", "en": "Now, our process, step by step." },
+        { "hi": "Step one, requirements और prototype. User roles और flows तय करके एक clickable prototype बनाते हैं।", "en": "Step one, requirements and prototype. We define user roles and flows and build a clickable prototype.", "highlight": 0 },
+        { "hi": "Step two, दोनों platforms के लिए touch-first UI design.", "en": "Step two, touch-first UI design for both platforms.", "highlight": 1 },
+        { "hi": "Step three, app screens, APIs और admin panel की development, milestones में, ताकि आपको हर stage पर test build मिले।", "en": "Step three, developing the app screens, APIs and admin panel in milestones, so you get a test build at every stage.", "highlight": 2 },
+        { "hi": "Step four, कई real phones और OS versions पर testing.", "en": "Step four, testing on many real phones and OS versions.", "highlight": 3 },
+        { "hi": "और step five, Play Store और App Store पर release, और उसके बाद updates व support.", "en": "And step five, release on the Play Store and App Store, followed by updates and support.", "highlight": 4 }
+      ]
+    },
+    {
+      "id": "tech",
+      "template": "tech",
+      "chapter": "Technologies",
+      "heading": "Technologies we use",
+      "items": ["Flutter", "React Native", "Swift", "Node.js"],
+      "cues": [
+        { "hi": "Technology में हम Flutter, React Native, Swift और Node.js जैसे proven tools use करते हैं।", "en": "We use proven technologies such as Flutter, React Native, Swift and Node.js." },
+        { "hi": "Cross-platform approach से एक ही codebase से दोनों platforms चलते हैं, जिससे development और maintenance दोनों आसान हो जाते हैं।", "en": "With a cross-platform approach, one codebase runs on both platforms, making development and maintenance easier." }
+      ]
+    },
+    {
+      "id": "benefits",
+      "template": "benefits",
+      "chapter": "Benefits",
+      "heading": "Benefits for your business",
+      "items": [
+        { "title": "Direct customer channel", "desc": "Notifications that bring customers back" },
+        { "title": "One codebase, two platforms", "desc": "Lower build and maintenance effort" },
+        { "title": "Works in the field", "desc": "Offline-first for weak networks" },
+        { "title": "Managed releases", "desc": "Store listings and updates handled" }
+      ],
+      "cues": [
+        { "hi": "इससे आपके business को क्या मिलेगा?", "en": "What does your business gain?" },
+        { "hi": "Customers तक सीधा channel. Notifications से customers बार-बार वापस आते हैं।", "en": "A direct channel to customers. Notifications keep bringing them back.", "highlight": 0 },
+        { "hi": "एक codebase से दो platforms, यानी कम effort और कम maintenance.", "en": "Two platforms from one codebase, meaning less effort and less maintenance.", "highlight": 1 },
+        { "hi": "Field में भी भरोसेमंद, क्योंकि app offline-first design पर बना है।", "en": "Reliable in the field, because the app is built offline-first.", "highlight": 2 },
+        { "hi": "और store release से लेकर updates तक, सब हम manage करते हैं।", "en": "And we manage everything from store release to updates.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "usecases",
+      "template": "usecases",
+      "chapter": "Use cases",
+      "heading": "Who is it for?",
+      "items": ["Ordering & delivery apps", "Field staff apps", "Booking apps", "Loyalty apps", "Internal team apps"],
+      "industries": ["Food & Delivery", "Agriculture", "Construction", "Retail", "Healthcare", "Logistics"],
+      "cues": [
+        { "hi": "ये apps किसके काम आते हैं? Ordering और delivery apps, field staff और contractor apps, booking apps, loyalty apps, और internal team apps.", "en": "Who uses these apps? Ordering and delivery apps, field staff and contractor apps, booking apps, loyalty apps and internal team apps." },
+        { "hi": "Food delivery, agriculture, construction, retail, healthcare और logistics जैसी industries में ये apps रोज़ के काम को आसान बनाते हैं।", "en": "In industries like food delivery, agriculture, construction, retail, healthcare and logistics, these apps make daily work easier." }
+      ]
+    },
+    {
+      "id": "cta",
+      "template": "cta",
+      "chapter": "Get started",
+      "heading": "Let's build your app",
+      "cues": [
+        { "hi": "अगर आपके पास किसी app का idea है, या आप अपने business के लिए एक app बनवाना चाहते हैं, तो Cosmogeek Solutions से बात कीजिए।", "en": "If you have an app idea, or want an app for your business, talk to Cosmogeek Solutions." },
+        { "hi": "हम Wardha, Maharashtra से 2019 से businesses के लिए digital solutions बना रहे हैं।", "en": "We have been building digital solutions for businesses from Wardha, Maharashtra, since 2019." },
+        { "hi": "Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!", "en": "Click Start a Project, or call or WhatsApp us. Thank you!" }
+      ]
+    }
+  ]
+}

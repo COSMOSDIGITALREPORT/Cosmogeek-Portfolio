@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.504 --> 00:00:11.568
+Hello! Welcome to Cosmogeek Solutions. Today we will talk about AI Automation and AI Solutions.
+
+2
+00:00:11.856 --> 00:00:26.040
+Many teams spend hours every week on repetitive work: copying data between systems, reading documents, answering the same questions and preparing reports.
+
+3
+00:00:26.328 --> 00:00:34.848
+AI and automation can take over this work, so your team can focus on decisions and customers.
+
+4
+00:00:35.544 --> 00:00:41.112
+First, let us look at the problems AI automation solves.
+
+5
+00:00:41.400 --> 00:00:49.344
+Manual data entry and repetitive admin tasks, which take a lot of time and cause mistakes.
+
+6
+00:00:49.632 --> 00:00:56.112
+Data scattered across different systems, which delays decisions.
+
+7
+00:00:56.400 --> 00:01:03.528
+Slow replies to customer queries, because first-level support is not automated.
+
+8
+00:01:03.816 --> 00:01:08.688
+And inconsistent handoffs of work between teams.
+
+9
+00:01:09.384 --> 00:01:12.936
+Now let us see what we build.
+
+10
+00:01:13.224 --> 00:01:22.752
+AI assistants and chatbots trained on your business information that answer common questions.
+
+11
+00:01:23.040 --> 00:01:31.464
+Document extraction: reading invoices, forms and PDFs and turning them into structured data.
+
+12
+00:01:31.752 --> 00:01:39.648
+Workflow automation: automatic approvals, notifications and data sync between tools.
+
+13
+00:01:39.936 --> 00:01:47.832
+LLM integrations that add AI features to your existing software and website.
+
+14
+00:01:48.120 --> 00:01:54.120
+Predictive analytics: understanding trends and demand from your historical data.
+
+15
+00:01:54.408 --> 00:02:01.632
+And human-in-the-loop design, so people always stay in control where it matters.
+
+16
+00:02:02.328 --> 00:02:09.312
+Here is an example. A supplier invoice arrives by email or WhatsApp.
+
+17
+00:02:09.600 --> 00:02:19.344
+AI reads the invoice and automatically extracts fields such as supplier name, amount, GST and date.
+
+18
+00:02:19.632 --> 00:02:27.720
+The workflow then sends it to a manager for approval. Here, a person checks and approves it.
+
+19
+00:02:28.008 --> 00:02:36.528
+Once approved, the entry goes into your ERP or accounting system and the dashboard updates.
+
+20
+00:02:37.224 --> 00:02:42.528
+Our process is practical and starts with a small pilot.
+
+21
+00:02:42.816 --> 00:02:51.864
+Step one, a process audit. We find which tasks are best suited to automation.
+
+22
+00:02:52.152 --> 00:03:01.056
+Step two, solution design: choosing the right AI models, data flows and security boundaries.
+
+23
+00:03:01.344 --> 00:03:06.864
+Step three, building and testing a pilot on one focused use case.
+
+24
+00:03:07.152 --> 00:03:14.520
+Step four, integration with your CRM, ERP and databases, plus team training.
+
+25
+00:03:14.808 --> 00:03:21.000
+And step five, monitoring accuracy and results and improving continuously.
+
+26
+00:03:21.696 --> 00:03:32.136
+We use Python, AI and machine learning models, LLMs, Node.js, PostgreSQL and Docker.
+
+27
+00:03:32.424 --> 00:03:39.864
+Your data stays within secure boundaries and is not used to train public models.
+
+28
+00:03:40.560 --> 00:03:43.152
+So what are the benefits?
+
+29
+00:03:43.440 --> 00:03:49.056
+Time saved. Repetitive work becomes automatic.
+
+30
+00:03:49.344 --> 00:03:55.032
+Fewer errors, because processing follows the same rules every time.
+
+31
+00:03:55.320 --> 00:04:02.808
+Faster responses. AI assistants reply instantly, day or night.
+
+32
+00:04:03.096 --> 00:04:08.952
+And better decisions, with insights built from your own data.
+
+33
+00:04:09.648 --> 00:04:22.656
+Where does AI help? Customer support assistants, invoice and document processing, lead qualification, report summaries, and inventory and demand insights.
+
+34
+00:04:22.944 --> 00:04:32.448
+From agriculture to retail, manufacturing, healthcare and education, every industry has opportunities for automation.
+
+35
+00:04:33.144 --> 00:04:43.272
+If you want to know where and how AI can help your business, talk to Cosmogeek Solutions.
+
+36
+00:04:43.560 --> 00:04:48.792
+We will understand your processes and give you practical recommendations.
+
+37
+00:04:49.080 --> 00:04:56.544
+Click Start a Project, or call or WhatsApp us. Thank you!

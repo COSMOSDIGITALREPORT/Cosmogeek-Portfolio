@@ -1,0 +1,147 @@
+{
+  "slug": "custom-software",
+  "title": "Custom Software Development",
+  "voice": "hi-IN-SwaraNeural",
+  "scenes": [
+    {
+      "id": "intro",
+      "template": "title",
+      "chapter": "Introduction",
+      "heading": "Custom Software Development",
+      "subheading": "Software designed around your exact business process",
+      "chips": ["Bespoke", "Integrated", "Scalable", "You own the code"],
+      "cues": [
+        { "hi": "नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम बात करेंगे Custom Software Development की।", "en": "Hello! Welcome to Cosmogeek Solutions. Today we will talk about Custom Software Development." },
+        { "hi": "हर business के कुछ processes अलग होते हैं। Generic software आपको अपना तरीका बदलने पर मजबूर करता है, और उन features के पैसे लेता है जो आप कभी use ही नहीं करते।", "en": "Every business has processes that make it unique. Generic software forces you to change how you work and charges for features you never use." },
+        { "hi": "Custom software में, software आपके workflow के हिसाब से बनता है, न कि workflow software के हिसाब से।", "en": "With custom software, the software is built around your workflow, not the other way around." }
+      ]
+    },
+    {
+      "id": "problems",
+      "template": "problems",
+      "chapter": "Problems",
+      "heading": "Problems we solve",
+      "items": [
+        "Rigid off-the-shelf workflows",
+        "Licence fees for unused features",
+        "No integration with existing tools",
+        "No ownership of business data"
+      ],
+      "cues": [
+        { "hi": "Businesses को आमतौर पर ये problems आती हैं।", "en": "Businesses usually face these problems." },
+        { "hi": "Ready-made software के rigid workflows, जो आपके काम करने के तरीके से match नहीं करते।", "en": "Rigid workflows in ready-made software that do not match how you work.", "highlight": 0 },
+        { "hi": "हर साल recurring licence fees, ऐसे features के लिए जो काम के ही नहीं।", "en": "Recurring licence fees every year for features you do not need.", "highlight": 1 },
+        { "hi": "पुराने systems या third-party APIs को जोड़ने का कोई तरीका न होना।", "en": "No way to connect older systems or third-party APIs.", "highlight": 2 },
+        { "hi": "और अपने ही business data पर पूरा control न होना।", "en": "And no full control over your own business data.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "features",
+      "template": "features",
+      "chapter": "Features",
+      "heading": "What we build",
+      "items": [
+        { "title": "Bespoke applications", "desc": "End-to-end business software" },
+        { "title": "Dashboards & admin panels", "desc": "Role-based access and reports" },
+        { "title": "APIs & integrations", "desc": "Payments, SMS, WhatsApp, accounting" },
+        { "title": "Workflow automation", "desc": "Approvals, alerts, scheduled jobs" },
+        { "title": "Modernization", "desc": "Rebuild legacy software" },
+        { "title": "Maintenance", "desc": "Long-term support and improvements" }
+      ],
+      "cues": [
+        { "hi": "हम क्या-क्या बनाते हैं, देखिए।", "en": "Here is what we build." },
+        { "hi": "पूरी तरह custom business applications, design से लेकर deployment तक।", "en": "Fully custom business applications, from design to deployment.", "highlight": 0 },
+        { "hi": "Operational dashboards और admin panels, role-based access और reports के साथ।", "en": "Operational dashboards and admin panels with role-based access and reports.", "highlight": 1 },
+        { "hi": "APIs और integrations, जैसे payment gateway, SMS, WhatsApp और accounting software.", "en": "APIs and integrations such as payment gateways, SMS, WhatsApp and accounting software.", "highlight": 2 },
+        { "hi": "Workflow automation, यानी approvals, alerts और scheduled jobs, system के अंदर ही।", "en": "Workflow automation: approvals, alerts and scheduled jobs built into the system.", "highlight": 3 },
+        { "hi": "पुराने legacy software को modern technology पर upgrade या rebuild करना।", "en": "Upgrading or rebuilding legacy software on modern technology.", "highlight": 4 },
+        { "hi": "और long-term maintenance, improvements और monitoring.", "en": "And long-term maintenance, improvements and monitoring.", "highlight": 5 }
+      ]
+    },
+    {
+      "id": "demo",
+      "template": "ui",
+      "variant": "code",
+      "chapter": "Live demo",
+      "heading": "From business rules to working software",
+      "cues": [
+        { "hi": "Custom software कैसे बनता है, देखिए। सबसे पहले आपके business rules code में बदलते हैं।", "en": "Here is how custom software comes together. First, your business rules are turned into code.", "highlight": 0 },
+        { "hi": "फिर अलग-अलग modules, जैसे users, orders, inventory और reports, एक API के ज़रिए आपस में जुड़ते हैं।", "en": "Then separate modules, such as users, orders, inventory and reports, connect through an API.", "highlight": 1 },
+        { "hi": "और आखिर में आपकी team को मिलता है एक clean dashboard, जिसमें सारा काम एक जगह दिखता है।", "en": "And finally your team gets a clean dashboard that shows all the work in one place.", "highlight": 2 }
+      ]
+    },
+    {
+      "id": "process",
+      "template": "flow",
+      "chapter": "Process",
+      "heading": "Our development process",
+      "items": [
+        { "title": "Requirements", "desc": "Requirement document" },
+        { "title": "Architecture", "desc": "Design & data model" },
+        { "title": "Sprints", "desc": "Modules per milestone" },
+        { "title": "Testing & Go-live", "desc": "Production system" },
+        { "title": "Handover", "desc": "Code & documentation" }
+      ],
+      "cues": [
+        { "hi": "हमारा process पाँच steps में चलता है।", "en": "Our process runs in five steps." },
+        { "hi": "पहला, requirement specification. Business rules, users और constraints को document करना।", "en": "First, requirement specification: documenting business rules, users and constraints.", "highlight": 0 },
+        { "hi": "दूसरा, architecture. सही technology stack चुनना और database design करना।", "en": "Second, architecture: choosing the right technology stack and designing the database.", "highlight": 1 },
+        { "hi": "तीसरा, iterative sprints. हर milestone पर आपको working modules दिखाए जाते हैं।", "en": "Third, iterative sprints, with working modules shown to you at every milestone.", "highlight": 2 },
+        { "hi": "चौथा, testing, data migration और go-live.", "en": "Fourth, testing, data migration and go-live.", "highlight": 3 },
+        { "hi": "और पाँचवाँ, documentation और training के साथ handover, और फिर ongoing support.", "en": "And fifth, handover with documentation and training, followed by ongoing support.", "highlight": 4 }
+      ]
+    },
+    {
+      "id": "tech",
+      "template": "tech",
+      "chapter": "Technologies",
+      "heading": "Technologies we use",
+      "items": ["Node.js", "Python", "Java", "React.js", "PostgreSQL", "Docker"],
+      "cues": [
+        { "hi": "हम Node.js, Python, Java, React.js, PostgreSQL और Docker जैसी reliable technologies use करते हैं।", "en": "We use reliable technologies such as Node.js, Python, Java, React.js, PostgreSQL and Docker." },
+        { "hi": "Technology project की ज़रूरत के हिसाब से चुनी जाती है, ताकि system लंबे समय तक stable रहे।", "en": "Technology is chosen to fit the project, so the system stays stable for the long term." }
+      ]
+    },
+    {
+      "id": "benefits",
+      "template": "benefits",
+      "chapter": "Benefits",
+      "heading": "Benefits for your business",
+      "items": [
+        { "title": "Fits your process", "desc": "Software follows how you work" },
+        { "title": "Full ownership", "desc": "You own the code and data" },
+        { "title": "Connected systems", "desc": "No double entry between tools" },
+        { "title": "Scales with you", "desc": "Add modules as you grow" }
+      ],
+      "cues": [
+        { "hi": "Custom software के बड़े फ़ायदे हैं।", "en": "Custom software has big advantages." },
+        { "hi": "Software आपके process में fit होता है, आपकी team जैसे काम करती है, वैसे ही।", "en": "The software fits your process, exactly the way your team works.", "highlight": 0 },
+        { "hi": "Full ownership. Source code और data, दोनों आपके।", "en": "Full ownership. Both the source code and the data are yours.", "highlight": 1 },
+        { "hi": "Connected systems, यानी एक ही data बार-बार enter नहीं करना पड़ता।", "en": "Connected systems, so the same data never has to be entered twice.", "highlight": 2 },
+        { "hi": "और business बढ़ने के साथ नए modules आसानी से जुड़ते हैं।", "en": "And new modules are easy to add as your business grows.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "usecases",
+      "template": "usecases",
+      "chapter": "Use cases",
+      "heading": "Where it fits",
+      "items": ["Internal management systems", "Field & contractor tracking", "Approval tools", "Customer & vendor portals", "Legacy replacement"],
+      "industries": ["Manufacturing", "Construction", "Agriculture", "Distribution", "Healthcare", "Services"],
+      "cues": [
+        { "hi": "Internal management systems, field और contractor tracking, approval tools, customer और vendor portals, और पुराने software का replacement.", "en": "Internal management systems, field and contractor tracking, approval tools, customer and vendor portals, and replacements for old software." },
+        { "hi": "Manufacturing, construction, agriculture, distribution और healthcare जैसी industries में custom software सबसे ज़्यादा value देता है।", "en": "Custom software delivers the most value in industries like manufacturing, construction, agriculture, distribution and healthcare." }
+      ]
+    },
+    {
+      "id": "cta",
+      "template": "cta",
+      "chapter": "Get started",
+      "heading": "Let's build software around you",
+      "cues": [
+        { "hi": "अगर आपका business किसी ऐसे software की तलाश में है जो बिल्कुल आपके हिसाब से काम करे, तो Cosmogeek Solutions से बात कीजिए।", "en": "If your business is looking for software that works exactly your way, talk to Cosmogeek Solutions." },
+        { "hi": "Start a Project पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!", "en": "Click Start a Project, or call or WhatsApp us. Thank you!" }
+      ]
+    }
+  ]
+}

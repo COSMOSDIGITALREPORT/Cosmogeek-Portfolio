@@ -1,0 +1,145 @@
+WEBVTT
+
+1
+00:00:00.504 --> 00:00:10.752
+Hello! Welcome to Cosmogeek Solutions. Today we will explain our ERP and Billing Software.
+
+2
+00:00:11.040 --> 00:00:21.888
+When stock is in one spreadsheet, invoices in another and payments in a notebook, the owner never gets a clear picture of the business.
+
+3
+00:00:22.176 --> 00:00:29.256
+Our ERP and billing software connects all these departments into one system.
+
+4
+00:00:29.952 --> 00:00:35.424
+First, the problems every trading and manufacturing business knows.
+
+5
+00:00:35.712 --> 00:00:43.200
+Stock mismatches from separate spreadsheets, and essential items running out.
+
+6
+00:00:43.488 --> 00:00:48.888
+Slow billing counters and long customer queues at peak hours.
+
+7
+00:00:49.176 --> 00:00:54.720
+Mistakes in manual GST calculation, and compliance stress.
+
+8
+00:00:55.008 --> 00:01:01.584
+And no real-time view of sales, outstanding dues and branch performance.
+
+9
+00:01:02.280 --> 00:01:05.424
+Now let us look at the main modules.
+
+10
+00:01:05.712 --> 00:01:14.616
+Inventory management: stock across warehouses, batches, low-stock alerts and transfers.
+
+11
+00:01:14.904 --> 00:01:24.072
+POS and GST billing: fast barcode billing, GST invoices, receipt printing and returns.
+
+12
+00:01:24.360 --> 00:01:32.904
+Sales and purchases: quotations, sales orders, purchase orders and supplier management.
+
+13
+00:01:33.192 --> 00:01:41.832
+Payments and ledgers: UPI, card and cash payments, customer ledgers and credit alerts.
+
+14
+00:01:42.120 --> 00:01:48.240
+Role-based access and audit logs, so you know who changed what.
+
+15
+00:01:48.528 --> 00:01:55.800
+And sales, profit, stock and GST reports, with dashboards and exports.
+
+16
+00:01:56.496 --> 00:02:04.272
+Here is an example. At the counter, items are added to the invoice as soon as their barcode is scanned.
+
+17
+00:02:04.560 --> 00:02:11.616
+GST is calculated automatically, with the correct HSN code and tax slab.
+
+18
+00:02:11.904 --> 00:02:18.696
+As soon as the bill is saved, stock is reduced in inventory, and low stock triggers an alert.
+
+19
+00:02:18.984 --> 00:02:25.872
+And today's sales and outstanding payments update instantly on the owner's dashboard.
+
+20
+00:02:26.568 --> 00:02:33.312
+We implement ERP in phases, so your team can adopt it comfortably.
+
+21
+00:02:33.600 --> 00:02:42.288
+First, workflow mapping: understanding departments, invoice formats, tax slabs and approvals.
+
+22
+00:02:42.576 --> 00:02:47.064
+Then designing the database, roles and security.
+
+23
+00:02:47.352 --> 00:02:53.520
+Next, modules are built in phases, starting with the most critical one.
+
+24
+00:02:53.808 --> 00:02:59.712
+Migrating existing data, and setting up printers and barcode scanners.
+
+25
+00:03:00.000 --> 00:03:06.984
+And finally staff training, a pilot run and go-live, along with automatic backups.
+
+26
+00:03:07.680 --> 00:03:16.992
+On the technology side: React.js, Node.js, Next.js, PostgreSQL and MySQL.
+
+27
+00:03:17.280 --> 00:03:26.712
+Offline billing is available when needed, so the counter keeps running without internet and syncs later.
+
+28
+00:03:27.408 --> 00:03:30.432
+The benefits for your business.
+
+29
+00:03:30.720 --> 00:03:38.496
+A single source of truth, with stock, sales, purchases and accounts all connected.
+
+30
+00:03:38.784 --> 00:03:43.608
+Fast billing, which shortens queues at the counter.
+
+31
+00:03:43.896 --> 00:03:50.400
+A GST-ready system with automatic tax calculation and GST reports.
+
+32
+00:03:50.688 --> 00:03:57.552
+And better cash flow, because outstanding dues and reminders are always in view.
+
+33
+00:03:58.248 --> 00:04:08.640
+Retail and wholesale billing, distributor management, manufacturing operations, multi-branch inventory, and clinic or service billing.
+
+34
+00:04:08.928 --> 00:04:18.696
+This system is very useful for retail, distribution, manufacturing, healthcare, pharma and FMCG businesses.
+
+35
+00:04:19.392 --> 00:04:31.944
+Want to bring your entire business into one system? Talk to Cosmogeek Solutions. We will share a demo and plan based on your workflow.
+
+36
+00:04:32.232 --> 00:04:39.696
+Click Start a Project, or call or WhatsApp us. Thank you!

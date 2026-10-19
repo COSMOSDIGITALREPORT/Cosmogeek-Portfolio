@@ -1,0 +1,149 @@
+{
+  "slug": "whatsapp-automation",
+  "title": "WhatsApp Automation",
+  "voice": "hi-IN-SwaraNeural",
+  "scenes": [
+    {
+      "id": "intro",
+      "template": "title",
+      "chapter": "Introduction",
+      "heading": "WhatsApp Automation",
+      "subheading": "Faster, more helpful customer conversations on WhatsApp",
+      "chips": ["Business Platform", "Auto-replies", "Notifications", "Human handoff"],
+      "cues": [
+        { "hi": "नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम समझेंगे हमारी WhatsApp Automation service.", "en": "Hello! Welcome to Cosmogeek Solutions. Today we will explain our WhatsApp Automation service." },
+        { "hi": "भारत में ज़्यादातर customers form भरने या call करने से ज़्यादा, WhatsApp पर message भेजना पसंद करते हैं।", "en": "In India, most customers prefer sending a WhatsApp message over filling a form or making a call." },
+        { "hi": "लेकिन जब ये messages personal phones पर आते हैं, तो जवाब देर से जाता है, और leads खो जाते हैं। यहीं WhatsApp Automation काम आता है।", "en": "But when these messages land on personal phones, replies are delayed and leads are lost. This is where WhatsApp Automation helps." }
+      ]
+    },
+    {
+      "id": "problems",
+      "template": "problems",
+      "chapter": "Problems",
+      "heading": "Problems we solve",
+      "items": [
+        "Slow first replies",
+        "Leads lost across phones and sheets",
+        "Same answers typed again and again",
+        "No handoff to a real person"
+      ],
+      "cues": [
+        { "hi": "पहले problems देखते हैं।", "en": "Let us look at the problems first." },
+        { "hi": "Customers को पहला जवाब मिलने में बहुत देर लगना।", "en": "Customers waiting too long for a first reply.", "highlight": 0 },
+        { "hi": "Leads और support requests का personal phones और spreadsheets में खो जाना।", "en": "Leads and support requests getting lost across personal phones and spreadsheets.", "highlight": 1 },
+        { "hi": "Staff का एक ही जवाब और routine updates बार-बार manually type करना।", "en": "Staff typing the same answers and routine updates manually, again and again.", "highlight": 2 },
+        { "hi": "और automated reply से team member तक conversation पहुँचाने का कोई साफ़ तरीका न होना।", "en": "And no clear way to pass a conversation from automated replies to a team member.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "demo",
+      "template": "ui",
+      "variant": "chat",
+      "chapter": "Live demo",
+      "heading": "A lead conversation, automated",
+      "cues": [
+        { "hi": "अब एक real conversation देखिए। Customer आपके business number पर Hi भेजता है।", "en": "Now look at a real conversation. A customer sends Hi to your business number.", "highlight": 0 },
+        { "hi": "तुरंत एक welcome message और menu जाता है। Products, prices, booking, या team से बात करना।", "en": "A welcome message and menu go out instantly: products, prices, booking, or talking to the team.", "highlight": 1 },
+        { "hi": "Customer booking चुनता है, और bot उसका नाम, requirement और पसंद का समय पूछ लेता है।", "en": "The customer chooses booking, and the bot asks for their name, requirement and preferred time.", "highlight": 2 },
+        { "hi": "Booking confirm होती है, और ये lead अपने आप आपके CRM में save हो जाती है।", "en": "The booking is confirmed, and the lead is saved to your CRM automatically.", "highlight": 3 },
+        { "hi": "और अगर customer किसी इंसान से बात करना चाहे, तो conversation पूरी history के साथ आपकी team तक पहुँच जाती है।", "en": "And if the customer wants to talk to a person, the conversation reaches your team with its full history.", "highlight": 4 }
+      ]
+    },
+    {
+      "id": "features",
+      "template": "features",
+      "chapter": "Features",
+      "heading": "What's included",
+      "items": [
+        { "title": "Business Platform setup", "desc": "Official API, verified profile, templates" },
+        { "title": "Conversation flows", "desc": "Menus, FAQs, catalogues, lead capture" },
+        { "title": "Notifications", "desc": "Order, payment and appointment updates" },
+        { "title": "CRM & website integration", "desc": "Inquiries routed to your systems" },
+        { "title": "Human handoff", "desc": "Team takes over with full context" },
+        { "title": "Reports", "desc": "Delivery, response and conversion data" }
+      ],
+      "cues": [
+        { "hi": "हमारी service में ये सब शामिल है।", "en": "Our service includes all of this." },
+        { "hi": "Official WhatsApp Business Platform का setup, verified business profile और message templates के साथ।", "en": "Setup of the official WhatsApp Business Platform, with a verified business profile and message templates.", "highlight": 0 },
+        { "hi": "Conversation flows, जैसे welcome menu, FAQs, product catalogue और lead qualification.", "en": "Conversation flows such as welcome menus, FAQs, product catalogues and lead qualification.", "highlight": 1 },
+        { "hi": "Order, payment, appointment और delivery के notifications, customer की permission यानी opt-in के साथ।", "en": "Order, payment, appointment and delivery notifications, with customer permission, that is, opt-in.", "highlight": 2 },
+        { "hi": "आपके CRM, website forms या order system के साथ integration.", "en": "Integration with your CRM, website forms or order system.", "highlight": 3 },
+        { "hi": "Human handoff, यानी ज़रूरत पड़ने पर team member conversation संभाल ले।", "en": "Human handoff, so a team member can take over the conversation when needed.", "highlight": 4 },
+        { "hi": "और delivery, response और conversion की reports.", "en": "And delivery, response and conversion reports.", "highlight": 5 }
+      ]
+    },
+    {
+      "id": "process",
+      "template": "flow",
+      "chapter": "Process",
+      "heading": "How we set it up",
+      "items": [
+        { "title": "Map Conversations", "desc": "Conversation map" },
+        { "title": "Design Flows", "desc": "Flows & templates" },
+        { "title": "Connect Tools", "desc": "Working integration" },
+        { "title": "Test & Launch", "desc": "Live automation" },
+        { "title": "Improve", "desc": "Reports & refinements" }
+      ],
+      "cues": [
+        { "hi": "Setup का process भी simple है।", "en": "The setup process is simple too." },
+        { "hi": "पहले हम आपके customers के common सवाल और journeys समझते हैं, और तय करते हैं कि कहाँ इंसान का जवाब ज़रूरी है।", "en": "First, we understand your customers' common questions and journeys, and decide where a person must respond.", "highlight": 0 },
+        { "hi": "फिर consent का ध्यान रखते हुए templates, branching logic और handoffs design करते हैं।", "en": "Then we design templates, branching logic and handoffs with consent in mind.", "highlight": 1 },
+        { "hi": "उसके बाद WhatsApp को आपकी website, CRM या order system से connect करते हैं।", "en": "After that, we connect WhatsApp to your website, CRM or order system.", "highlight": 2 },
+        { "hi": "Real scenarios में testing, templates की approval, और फिर launch.", "en": "Testing with real scenarios, template approval, and then launch.", "highlight": 3 },
+        { "hi": "और launch के बाद data देखकर flows को लगातार बेहतर बनाते हैं।", "en": "And after launch, we keep improving the flows based on the data.", "highlight": 4 }
+      ]
+    },
+    {
+      "id": "tech",
+      "template": "tech",
+      "chapter": "Technologies",
+      "heading": "Technologies we use",
+      "items": ["WhatsApp Business Platform", "WhatsApp Cloud API", "Node.js", "Webhooks", "CRM Integrations"],
+      "cues": [
+        { "hi": "इसके लिए हम WhatsApp Business Platform, WhatsApp Cloud API, Node.js, webhooks और CRM integrations use करते हैं।", "en": "For this, we use the WhatsApp Business Platform, WhatsApp Cloud API, Node.js, webhooks and CRM integrations." },
+        { "hi": "Official API use करने से आपका business number safe रहता है, और WhatsApp की policies का पालन होता है।", "en": "Using the official API keeps your business number safe and follows WhatsApp's policies." }
+      ]
+    },
+    {
+      "id": "benefits",
+      "template": "benefits",
+      "chapter": "Benefits",
+      "heading": "Benefits for your business",
+      "items": [
+        { "title": "Instant first response", "desc": "Helpful replies any time" },
+        { "title": "No lost leads", "desc": "Every inquiry captured and routed" },
+        { "title": "Less repetitive work", "desc": "Routine updates sent automatically" },
+        { "title": "Shared team inbox", "desc": "One number with full context" }
+      ],
+      "cues": [
+        { "hi": "फ़ायदे साफ़ हैं।", "en": "The benefits are clear." },
+        { "hi": "हर customer को तुरंत पहला जवाब, दिन हो या रात।", "en": "Every customer gets an instant first reply, day or night.", "highlight": 0 },
+        { "hi": "कोई lead नहीं खोती, क्योंकि हर inquiry capture होकर सही व्यक्ति तक जाती है।", "en": "No lead is lost, because every inquiry is captured and routed to the right person.", "highlight": 1 },
+        { "hi": "Routine updates अपने आप जाते हैं, तो staff का time बचता है।", "en": "Routine updates go out automatically, saving staff time.", "highlight": 2 },
+        { "hi": "और पूरी team एक ही business number से, पूरी context के साथ काम करती है।", "en": "And the whole team works from one business number, with full context.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "usecases",
+      "template": "usecases",
+      "chapter": "Use cases",
+      "heading": "Popular use cases",
+      "items": ["Lead capture & follow-up", "Order & delivery updates", "Appointment reminders", "Payment reminders", "Support FAQs"],
+      "industries": ["Retail", "Real Estate", "Healthcare", "Education", "Food & Delivery", "Services"],
+      "cues": [
+        { "hi": "Lead capture और follow-up, order और delivery updates, appointment reminders, payment reminders, और support FAQs. ये सबसे popular use cases हैं।", "en": "Lead capture and follow-up, order and delivery updates, appointment reminders, payment reminders and support FAQs are the most popular use cases." },
+        { "hi": "Retail, real estate, healthcare, education, food delivery और services businesses के लिए ये बहुत useful है।", "en": "It is very useful for retail, real estate, healthcare, education, food delivery and service businesses." }
+      ]
+    },
+    {
+      "id": "cta",
+      "template": "cta",
+      "chapter": "Get started",
+      "heading": "Automate your WhatsApp",
+      "cues": [
+        { "hi": "अपने WhatsApp को एक smart sales और support channel बनाना चाहते हैं? तो Cosmogeek Solutions से बात कीजिए।", "en": "Want to turn your WhatsApp into a smart sales and support channel? Talk to Cosmogeek Solutions." },
+        { "hi": "Start a Project पर click कीजिए, या हमें सीधे WhatsApp कीजिए। धन्यवाद!", "en": "Click Start a Project, or message us directly on WhatsApp. Thank you!" }
+      ]
+    }
+  ]
+}

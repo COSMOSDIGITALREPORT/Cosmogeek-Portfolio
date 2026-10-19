@@ -1,0 +1,149 @@
+WEBVTT
+
+1
+00:00:00.504 --> 00:00:10.704
+नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम समझेंगे हमारी WhatsApp Automation service.
+
+2
+00:00:10.992 --> 00:00:19.224
+भारत में ज़्यादातर customers form भरने या call करने से ज़्यादा, WhatsApp पर message भेजना पसंद करते हैं।
+
+3
+00:00:19.512 --> 00:00:30.768
+लेकिन जब ये messages personal phones पर आते हैं, तो जवाब देर से जाता है, और leads खो जाते हैं। यहीं WhatsApp Automation काम आता है।
+
+4
+00:00:31.464 --> 00:00:34.272
+पहले problems देखते हैं।
+
+5
+00:00:34.560 --> 00:00:39.000
+Customers को पहला जवाब मिलने में बहुत देर लगना।
+
+6
+00:00:39.288 --> 00:00:45.024
+Leads और support requests का personal phones और spreadsheets में खो जाना।
+
+7
+00:00:45.312 --> 00:00:51.096
+Staff का एक ही जवाब और routine updates बार-बार manually type करना।
+
+8
+00:00:51.384 --> 00:00:58.392
+और automated reply से team member तक conversation पहुँचाने का कोई साफ़ तरीका न होना।
+
+9
+00:00:59.088 --> 00:01:06.384
+अब एक real conversation देखिए। Customer आपके business number पर Hi भेजता है।
+
+10
+00:01:06.672 --> 00:01:15.576
+तुरंत एक welcome message और menu जाता है। Products, prices, booking, या team से बात करना।
+
+11
+00:01:15.864 --> 00:01:23.376
+Customer booking चुनता है, और bot उसका नाम, requirement और पसंद का समय पूछ लेता है।
+
+12
+00:01:23.664 --> 00:01:30.360
+Booking confirm होती है, और ये lead अपने आप आपके CRM में save हो जाती है।
+
+13
+00:01:30.648 --> 00:01:39.672
+और अगर customer किसी इंसान से बात करना चाहे, तो conversation पूरी history के साथ आपकी team तक पहुँच जाती है।
+
+14
+00:01:40.368 --> 00:01:43.896
+हमारी service में ये सब शामिल है।
+
+15
+00:01:44.184 --> 00:01:52.128
+Official WhatsApp Business Platform का setup, verified business profile और message templates के साथ।
+
+16
+00:01:52.416 --> 00:02:00.312
+Conversation flows, जैसे welcome menu, FAQs, product catalogue और lead qualification.
+
+17
+00:02:00.600 --> 00:02:08.904
+Order, payment, appointment और delivery के notifications, customer की permission यानी opt-in के साथ।
+
+18
+00:02:09.192 --> 00:02:15.120
+आपके CRM, website forms या order system के साथ integration.
+
+19
+00:02:15.408 --> 00:02:21.576
+Human handoff, यानी ज़रूरत पड़ने पर team member conversation संभाल ले।
+
+20
+00:02:21.864 --> 00:02:26.352
+और delivery, response और conversion की reports.
+
+21
+00:02:27.048 --> 00:02:30.288
+Setup का process भी simple है।
+
+22
+00:02:30.576 --> 00:02:39.888
+पहले हम आपके customers के common सवाल और journeys समझते हैं, और तय करते हैं कि कहाँ इंसान का जवाब ज़रूरी है।
+
+23
+00:02:40.176 --> 00:02:46.992
+फिर consent का ध्यान रखते हुए templates, branching logic और handoffs design करते हैं।
+
+24
+00:02:47.280 --> 00:02:53.976
+उसके बाद WhatsApp को आपकी website, CRM या order system से connect करते हैं।
+
+25
+00:02:54.264 --> 00:03:00.072
+Real scenarios में testing, templates की approval, और फिर launch.
+
+26
+00:03:00.360 --> 00:03:05.856
+और launch के बाद data देखकर flows को लगातार बेहतर बनाते हैं।
+
+27
+00:03:06.552 --> 00:03:16.896
+इसके लिए हम WhatsApp Business Platform, WhatsApp Cloud API, Node.js, webhooks और CRM integrations use करते हैं।
+
+28
+00:03:17.184 --> 00:03:25.632
+Official API use करने से आपका business number safe रहता है, और WhatsApp की policies का पालन होता है।
+
+29
+00:03:26.328 --> 00:03:28.632
+फ़ायदे साफ़ हैं।
+
+30
+00:03:28.920 --> 00:03:33.840
+हर customer को तुरंत पहला जवाब, दिन हो या रात।
+
+31
+00:03:34.128 --> 00:03:40.728
+कोई lead नहीं खोती, क्योंकि हर inquiry capture होकर सही व्यक्ति तक जाती है।
+
+32
+00:03:41.016 --> 00:03:46.296
+Routine updates अपने आप जाते हैं, तो staff का time बचता है।
+
+33
+00:03:46.584 --> 00:03:52.872
+और पूरी team एक ही business number से, पूरी context के साथ काम करती है।
+
+34
+00:03:53.568 --> 00:04:06.696
+Lead capture और follow-up, order और delivery updates, appointment reminders, payment reminders, और support FAQs. ये सबसे popular use cases हैं।
+
+35
+00:04:06.984 --> 00:04:16.152
+Retail, real estate, healthcare, education, food delivery और services businesses के लिए ये बहुत useful है।
+
+36
+00:04:16.848 --> 00:04:25.872
+अपने WhatsApp को एक smart sales और support channel बनाना चाहते हैं? तो Cosmogeek Solutions से बात कीजिए।
+
+37
+00:04:26.160 --> 00:04:33.552
+Start a Project पर click कीजिए, या हमें सीधे WhatsApp कीजिए। धन्यवाद!

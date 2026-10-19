@@ -1,0 +1,148 @@
+{
+  "slug": "web-development",
+  "title": "Web Development",
+  "voice": "hi-IN-SwaraNeural",
+  "scenes": [
+    {
+      "id": "intro",
+      "template": "title",
+      "chapter": "Introduction",
+      "heading": "Web Development",
+      "subheading": "Modern, fast and scalable websites & web applications",
+      "chips": ["Responsive", "Fast", "SEO-ready", "Secure"],
+      "cues": [
+        { "hi": "नमस्ते! Cosmogeek Solutions में आपका स्वागत है। आज हम आपको हमारी Web Development service के बारे में शुरुआत से आखिर तक समझाएंगे।", "en": "Hello! Welcome to Cosmogeek Solutions. Today we will walk you through our Web Development service, from start to finish." },
+        { "hi": "आज के समय में आपकी website ही अक्सर customer से आपकी पहली मुलाक़ात होती है। अगर पहली impression अच्छी हो, तो trust अपने आप बनता है।", "en": "Today, your website is often a customer's first meeting with your business. When that first impression is good, trust follows naturally." },
+        { "hi": "इसीलिए हम ऐसी websites और web applications बनाते हैं जो fast हों, हर screen पर अच्छी दिखें, और visitors को customers में बदलें।", "en": "That is why we build websites and web applications that are fast, look great on every screen and turn visitors into customers." }
+      ]
+    },
+    {
+      "id": "problems",
+      "template": "problems",
+      "chapter": "Problems",
+      "heading": "Problems we solve",
+      "items": [
+        "Slow, outdated web pages",
+        "Layouts that break on mobile",
+        "Unstructured, risky code",
+        "Weak SEO and low visibility"
+      ],
+      "cues": [
+        { "hi": "पहले देखते हैं वो problems, जो ज़्यादातर businesses अपनी website के साथ face करते हैं।", "en": "First, let us look at the problems most businesses face with their website." },
+        { "hi": "पहली problem है slow और पुरानी website. अगर page load होने में ज़्यादा time लगे, तो visitor कुछ पढ़ने से पहले ही चला जाता है।", "en": "Problem one is a slow, outdated website. If a page takes too long to load, visitors leave before reading anything.", "highlight": 0 },
+        { "hi": "दूसरी problem, mobile पर layout का टूट जाना। आज ज़्यादातर लोग phone से ही browse करते हैं।", "en": "Problem two is a layout that breaks on mobile. Most people browse on their phones today.", "highlight": 1 },
+        { "hi": "तीसरी, unstructured code. ऐसे में हर नया feature जोड़ना महंगा भी होता है और risky भी।", "en": "Three, unstructured code, which makes every new feature both expensive and risky.", "highlight": 2 },
+        { "hi": "और चौथी, कमज़ोर SEO structure, जिसकी वजह से आपका business Google search में दिखता ही नहीं।", "en": "And four, a weak SEO structure, so your business barely shows up on Google search.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "features",
+      "template": "features",
+      "chapter": "Features",
+      "heading": "What we build",
+      "items": [
+        { "title": "Responsive design", "desc": "Phones, tablets, laptops and large screens" },
+        { "title": "Business websites", "desc": "Clear message and strong calls to action" },
+        { "title": "Web apps & portals", "desc": "Customer portals, admin panels, dashboards" },
+        { "title": "E-commerce", "desc": "Catalogue, cart and payment gateway" },
+        { "title": "Performance & SEO", "desc": "Core Web Vitals, technical SEO, accessibility" },
+        { "title": "Hosting & maintenance", "desc": "SSL, backups and ongoing updates" }
+      ],
+      "cues": [
+        { "hi": "अब बात करते हैं solution की। हमारी Web Development service में ये सारी capabilities शामिल हैं।", "en": "Now let us talk about the solution. Our Web Development service includes all of these capabilities." },
+        { "hi": "Responsive design. आपकी website phone, tablet, laptop और बड़ी screens, सब पर अपने आप सही तरह adjust होती है।", "en": "Responsive design. Your website adjusts correctly to phones, tablets, laptops and large screens.", "highlight": 0 },
+        { "hi": "Business websites और landing pages, clear message और strong call to action के साथ।", "en": "Business websites and landing pages with a clear message and a strong call to action.", "highlight": 1 },
+        { "hi": "Web applications और portals, जैसे customer portal, admin panel और dashboards, secure login के साथ।", "en": "Web applications and portals, such as customer portals, admin panels and dashboards, with secure login.", "highlight": 2 },
+        { "hi": "E-commerce, यानी product catalogue, shopping cart और payment gateway integration.", "en": "E-commerce: product catalogues, shopping carts and payment gateway integration.", "highlight": 3 },
+        { "hi": "Performance और SEO. Core Web Vitals tuning, technical SEO और accessibility checks.", "en": "Performance and SEO: Core Web Vitals tuning, technical SEO and accessibility checks.", "highlight": 4 },
+        { "hi": "और launch के बाद hosting, SSL, backups और maintenance भी हम ही संभालते हैं।", "en": "And after launch, we also take care of hosting, SSL, backups and maintenance.", "highlight": 5 }
+      ]
+    },
+    {
+      "id": "demo",
+      "template": "ui",
+      "variant": "browser",
+      "chapter": "Live demo",
+      "heading": "How a modern business website works",
+      "cues": [
+        { "hi": "चलिए एक example देखते हैं। ये एक typical business website है। ऊपर साफ़ navigation, और फिर एक strong hero section.", "en": "Let us look at an example. This is a typical business website: clean navigation at the top, followed by a strong hero section.", "highlight": 0 },
+        { "hi": "नीचे services के cards, और हर ज़रूरी जगह inquiry और WhatsApp का button, ताकि visitor तुरंत contact कर सके।", "en": "Below are the service cards, with inquiry and WhatsApp buttons wherever they matter, so visitors can get in touch immediately.", "highlight": 1 },
+        { "hi": "और यही design mobile पर अपने आप single column में बदल जाता है। न zoom करना पड़ता है, न layout टूटता है।", "en": "And the same design automatically becomes a single column on mobile. No zooming, and no broken layout.", "highlight": 2 }
+      ]
+    },
+    {
+      "id": "process",
+      "template": "flow",
+      "chapter": "Process",
+      "heading": "Our development process",
+      "items": [
+        { "title": "Discovery", "desc": "Sitemap & wireframes" },
+        { "title": "UI Design", "desc": "Approved designs" },
+        { "title": "Development", "desc": "Staging website" },
+        { "title": "Testing", "desc": "Cross-device QA" },
+        { "title": "Launch", "desc": "Live site & support" }
+      ],
+      "cues": [
+        { "hi": "अब समझते हैं हमारा development process, step by step.", "en": "Now let us understand our development process, step by step." },
+        { "hi": "Step one, Discovery. हम आपके goals और audience को समझते हैं, और sitemap व wireframes तैयार करते हैं।", "en": "Step one, Discovery. We understand your goals and audience, and prepare the sitemap and wireframes.", "highlight": 0 },
+        { "hi": "Step two, UI Design. Desktop और mobile, दोनों के लिए आपके brand के हिसाब से design.", "en": "Step two, UI Design: designs for desktop and mobile that match your brand.", "highlight": 1 },
+        { "hi": "Step three, Development. Reusable components, APIs, forms और integrations के साथ एक staging website, जिसे आप खुद review कर सकते हैं।", "en": "Step three, Development: a staging website with reusable components, APIs, forms and integrations that you can review yourself.", "highlight": 2 },
+        { "hi": "Step four, Testing. अलग-अलग browsers, screen sizes और internet speeds पर पूरी checking.", "en": "Step four, Testing: complete checks across browsers, screen sizes and internet speeds.", "highlight": 3 },
+        { "hi": "और step five, Launch. Domain, SSL, hosting और analytics setup, और उसके बाद post-launch support.", "en": "And step five, Launch: domain, SSL, hosting and analytics setup, followed by post-launch support.", "highlight": 4 }
+      ]
+    },
+    {
+      "id": "tech",
+      "template": "tech",
+      "chapter": "Technologies",
+      "heading": "Technologies we use",
+      "items": ["React.js", "Next.js", "JavaScript", "HTML5", "CSS3", "Node.js"],
+      "cues": [
+        { "hi": "Technology की बात करें, तो हम React.js, Next.js, JavaScript, HTML5, CSS3 और Node.js जैसे modern tools use करते हैं।", "en": "On the technology side, we use modern tools such as React.js, Next.js, JavaScript, HTML5, CSS3 and Node.js." },
+        { "hi": "ये technologies fast performance देती हैं, और आगे चलकर नए features जोड़ना भी आसान बनाती हैं।", "en": "These technologies deliver fast performance and make it easy to add new features later." }
+      ]
+    },
+    {
+      "id": "benefits",
+      "template": "benefits",
+      "chapter": "Benefits",
+      "heading": "Benefits for your business",
+      "items": [
+        { "title": "Stronger first impression", "desc": "Professional design builds trust" },
+        { "title": "More inquiries", "desc": "Forms and WhatsApp where visitors need them" },
+        { "title": "Found on search", "desc": "Fast pages with clean structure" },
+        { "title": "Ready to grow", "desc": "New pages and features added quickly" }
+      ],
+      "cues": [
+        { "hi": "तो आपके business को इससे क्या फ़ायदा होगा?", "en": "So, how does your business benefit?" },
+        { "hi": "पहला, strong first impression. Professional design से नए visitors का भरोसा बनता है।", "en": "First, a strong first impression. A professional design builds trust with new visitors.", "highlight": 0 },
+        { "hi": "दूसरा, ज़्यादा inquiries. Contact form और WhatsApp links बिल्कुल सही जगह पर।", "en": "Second, more inquiries, with contact forms and WhatsApp links exactly where they belong.", "highlight": 1 },
+        { "hi": "तीसरा, search में दिखना। Fast loading और सही structure से Google आपके pages को बेहतर समझता है।", "en": "Third, visibility in search. Fast loading and the right structure help Google understand your pages better.", "highlight": 2 },
+        { "hi": "और चौथा, growth के लिए तैयार। Modular code की वजह से नए pages और features जल्दी जुड़ते हैं।", "en": "And fourth, ready for growth. Modular code means new pages and features can be added quickly.", "highlight": 3 }
+      ]
+    },
+    {
+      "id": "usecases",
+      "template": "usecases",
+      "chapter": "Use cases",
+      "heading": "Who is it for?",
+      "items": ["Company websites", "Landing pages", "Customer & dealer portals", "Online stores", "Booking & registration"],
+      "industries": ["Retail", "Real Estate", "Energy", "Education", "Healthcare", "Professional Services"],
+      "cues": [
+        { "hi": "ये service किनके लिए है? Company websites, lead generation landing pages, customer और dealer portals, online stores, और booking या registration systems.", "en": "Who is this service for? Company websites, lead-generation landing pages, customer and dealer portals, online stores, and booking or registration systems." },
+        { "hi": "Retail, real estate, energy, education, healthcare और professional services, हर industry के लिए हम solution को उसकी ज़रूरत के हिसाब से design करते हैं।", "en": "Retail, real estate, energy, education, healthcare and professional services: we design each solution around that industry's needs." }
+      ]
+    },
+    {
+      "id": "cta",
+      "template": "cta",
+      "chapter": "Get started",
+      "heading": "Let's build your website",
+      "cues": [
+        { "hi": "तो अगर आप नई website या web application बनाना चाहते हैं, या अपनी पुरानी website को upgrade करना चाहते हैं, तो Cosmogeek Solutions से बात कीजिए।", "en": "So if you want a new website or web application, or want to upgrade your existing website, talk to Cosmogeek Solutions." },
+        { "hi": "हमारी team Wardha, Maharashtra से काम करती है, और 2019 से businesses को digital बनने में मदद कर रही है।", "en": "Our team works from Wardha, Maharashtra, and has been helping businesses go digital since 2019." },
+        { "hi": "नीचे दिए Start a Project button पर click कीजिए, या हमें call या WhatsApp कीजिए। धन्यवाद!", "en": "Click the Start a Project button below, or call or WhatsApp us. Thank you!" }
+      ]
+    }
+  ]
+}
