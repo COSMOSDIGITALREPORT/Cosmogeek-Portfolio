@@ -216,7 +216,7 @@ export default function TechnologyStack() {
 
       {/* Full-width track: technology cards travel right → left as the page scrolls */}
       {activeId === 'all' && (
-        <DirectionalTrack direction="left" label="Technology categories" className="tech-track">
+        <DirectionalTrack direction="left" label="Technology categories" className="tech-track" continuous speed={68}>
           {TECH_STACK.map((category, index) => (
             <TechCard key={category.id} as="li" category={category} index={index} reduceMotion={reduceMotion} />
           ))}

@@ -44,7 +44,7 @@ export default function FeaturedProjects() {
       </div>
 
       {/* Full-width track: project cards travel left → right as the page scrolls */}
-      <DirectionalTrack direction="right" label="Featured projects" className="relative z-10">
+      <DirectionalTrack direction="right" label="Featured projects" className="relative z-10" continuous speed={68}>
         {featuredProjects.map((project, index) => (
           <motion.li
             key={project.id}
