@@ -91,8 +91,10 @@ export default function ProjectDetails() {
   const { slug } = useParams()
   const [activeModalItem, setActiveModalItem] = useState(null)
 
-  // Find project by slug
-  const currentIndex = PROJECTS_DATA.findIndex((p) => p.slug === slug)
+  // Find project by slug or alias
+  const currentIndex = PROJECTS_DATA.findIndex(
+    (p) => p.slug === slug || (p.aliases && p.aliases.includes(slug))
+  )
   const project = currentIndex !== -1 ? PROJECTS_DATA[currentIndex] : null
   const totalProjects = PROJECTS_DATA.length
 
@@ -108,7 +110,7 @@ export default function ProjectDetails() {
 
   // Related projects (same category or featured, excluding current)
   const relatedProjects = PROJECTS_DATA.filter(
-    (p) => p.slug !== slug && (p.category === project?.category || p.featured)
+    (p) => p.id !== project?.id && (p.category === project?.category || p.featured)
   ).slice(0, 2)
 
   // Accessible lightbox Escape key handler

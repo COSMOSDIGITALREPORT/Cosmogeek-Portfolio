@@ -100,7 +100,7 @@ export const COMPANY_STATS = [
   },
   {
     id: 'projects',
-    value: '12+',
+    value: '21+',
     unit: 'Cataloged',
     label: 'Documented Solutions',
     description: 'Enterprise & application systems in active portfolio',

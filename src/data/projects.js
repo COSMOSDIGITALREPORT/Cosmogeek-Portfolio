@@ -76,10 +76,10 @@ export const PROJECTS_DATA = [
     ],
   },
   {
-    id: 'distributor-management-system',
-    slug: 'distributor-management-system',
-    image: '/images/projects/distributor-management-system.svg',
-    title: 'Distributor Management System',
+    id: 'one-touch-app',
+    slug: 'one-touch-app',
+    image: '/images/projects/one-touch-app.svg',
+    title: 'One Touch App',
     category: 'ERP & Business Software',
     description:
       'Integrated distribution, inventory tracking, and supply chain management system for commercial distributors.',
@@ -88,7 +88,7 @@ export const PROJECTS_DATA = [
     status: 'Deployed',
     conceptType: 'Supply Chain System',
     overview:
-      'A multi-warehouse distributor management system engineered to automate order intake, stock allocation, dispatch scheduling, and retailer accounts.',
+      'One Touch App is a multi-warehouse distributor management system engineered to automate order intake, stock allocation, dispatch scheduling, and retailer accounts at the tap of a button.',
     problem:
       'Commercial distributors faced inventory discrepancies between central warehouses and delivery vans, leading to order fulfillment delays.',
     solution:
@@ -402,6 +402,305 @@ export const PROJECTS_DATA = [
     gallery: [
       { id: 1, title: 'Property Map Browser', label: 'Architecture Concept: Real Estate Portal' },
       { id: 2, title: 'Listing Detail Sheet', label: 'Architecture Concept: Floor Plan & Amenities' },
+    ],
+  },
+  {
+    id: 'banquit-hall-sbm',
+    slug: 'banquit-hall-sbm',
+    image: '/images/projects/banquit-hall-sbm.svg',
+    title: 'Banquit Hall SBM',
+    category: 'Web Development',
+    description:
+      'Digital booking, reservation scheduling, and banquet event management platform for celebrations, weddings, and seminars.',
+    featured: true,
+    technologies: ['React', 'Node.js', 'Tailwind CSS', 'Booking API'],
+    status: 'Completed',
+    conceptType: 'Venue & Event Portal',
+    overview:
+      'Banquit Hall SBM is an event venue management and reservation system that handles hall bookings, catering menus, event date scheduling, and automated guest invoices.',
+    problem:
+      'The banquet management team faced double-booking risks, manual date calendar conflicts, and delayed deposit receipt records during peak celebration seasons.',
+    solution:
+      'Engineered an online venue booking engine featuring real-time date availability, stage decor package selection, advance payment tracking, and digital PDF booking receipts.',
+    features: [
+      'Real-time date availability calendar and hall slot management',
+      'Custom wedding, reception, and seminar event package builder',
+      'Automated booking deposit receipts and installment ledger',
+      'Customer inquiry management with instant WhatsApp notifications',
+    ],
+    outcomes: [
+      'Prevented venue slot overlapping and scheduling errors across busy event calendars.',
+      'Streamlined customer inquiry-to-booking turnaround for high-volume seasons.',
+    ],
+    gallery: [
+      { id: 1, title: 'Hall Reservation Calendar', label: 'Architecture Concept: Venue Scheduling Workspace' },
+      { id: 2, title: 'Package & Catering Selector', label: 'Architecture Concept: Client Event Builder' },
+    ],
+  },
+  {
+    id: 'mauli-driver-school',
+    slug: 'mauli-driver-school',
+    image: '/images/projects/mauli-driver-school.svg',
+    title: 'Mauli Driver School',
+    category: 'Web Development',
+    description:
+      'Automated driving academy portal streamlining student enrollments, practical batch scheduling, and RTO licensing milestones.',
+    featured: true,
+    technologies: ['React', 'PostgreSQL', 'Express', 'SMS Gateway'],
+    status: 'Completed',
+    conceptType: 'Driving Academy Management',
+    overview:
+      'A specialized academy management application built for Mauli Driver School to supervise student training sessions, instructor allocations, and RTO test milestones.',
+    problem:
+      'Paper logbooks made tracking student driving hours, pending RTO test dates, and fee installments chaotic and prone to administrative delays.',
+    solution:
+      'Developed a centralized driving school management portal featuring student profiles, automated lesson hour tracking, fee installment receipts, and RTO test reminders.',
+    features: [
+      'Student admissions portal with digital document KYC verification',
+      'Instructor batch and vehicle scheduling calendar',
+      'Automated SMS alerts for RTO learning license and driving test dates',
+      'Digital fee receipts with installment balance tracking',
+    ],
+    outcomes: [
+      'Digitized 100% of student driving training records and attendance logs.',
+      'Reduced administrative time spent coordinating instructor and vehicle schedules.',
+    ],
+    gallery: [
+      { id: 1, title: 'Student Milestone Tracker', label: 'Architecture Concept: RTO Licensing Pipeline' },
+      { id: 2, title: 'Instructor & Vehicle Scheduler', label: 'Architecture Concept: Training Slot Allocation' },
+    ],
+  },
+  {
+    id: 'big-days-cellabration-app',
+    slug: 'big-days-cellabration-app',
+    image: '/images/projects/big-days-cellabration-app.svg',
+    title: 'Big Days Cellabration Mobile App',
+    category: 'Mobile Applications',
+    description:
+      'Comprehensive celebration and event planning mobile app for venue discovery, vendor bookings, invitations, and milestone coordination.',
+    featured: true,
+    technologies: ['React Native', 'Firebase', 'Cloud Messaging', 'Payment Gateway'],
+    status: 'Completed',
+    conceptType: 'Event Celebration Mobile App',
+    overview:
+      'Big Days CEllabration is an intuitive cross-platform mobile application that empowers users to plan weddings, birthdays, and corporate celebrations from the palm of their hand.',
+    problem:
+      'Event hosts spent days juggling disconnected photographers, caterers, decorators, and invite lists without a single transparent budget or timeline tracker.',
+    solution:
+      'Built an all-in-one celebration mobile app integrating verified event vendor marketplaces, digital invitation dispatching, budget trackers, and live event checklists.',
+    features: [
+      'Vendor marketplace for caterers, photographers, and event decorators',
+      'Interactive digital invitation creator with RSVP guest tracking',
+      'Real-time celebration budget calculator with expense categorization',
+      'Push notification reminders for key event milestones and vendor payments',
+    ],
+    outcomes: [
+      'Consolidated end-to-end event planning into a unified mobile interface.',
+      'Enabled instant discovery and booking of regional celebration services.',
+    ],
+    gallery: [
+      { id: 1, title: 'Vendor Discovery Feed', label: 'Architecture Concept: Mobile Service Catalog' },
+      { id: 2, title: 'Event Budget & RSVP Hub', label: 'Architecture Concept: Guest & Expense Dashboard' },
+    ],
+  },
+  {
+    id: 'sarvoday-coushali-trust',
+    slug: 'sarvoday-coushali-trust',
+    image: '/images/projects/sarvoday-coushali-trust.svg',
+    title: 'Sarvoday Goushala Trust',
+    category: 'Web Development',
+    description:
+      'Community trust and vocational skill development portal empowering youth admissions, course certifications, and donor transparency.',
+    featured: true,
+    technologies: ['Next.js', 'Tailwind CSS', 'PostgreSQL', 'Cloud Architecture'],
+    status: 'Completed',
+    conceptType: 'Vocational Trust & NGO Portal',
+    overview:
+      'Sarvoday Coushali Trust is a philanthropic organization platform built to advance youth vocational skill training, rural self-employment programs, and transparent donor reporting.',
+    problem:
+      'The trust lacked a modern online presence to showcase skill programs, accept prospective student registrations, and share audited social impact reports with donors.',
+    solution:
+      'Created an accessible, multilingual portal with online student enrollment, course syllabus downloads, photo activity galleries, and transparent project impact metrics.',
+    features: [
+      'Online vocational course enrollment and batch registration',
+      'Verified certificate validation portal for graduated students',
+      'Transparent social impact metrics and annual audited report repository',
+      'Direct donor contribution inquiry and CSR partnership forms',
+    ],
+    outcomes: [
+      'Broadened regional outreach for rural skill training programs.',
+      'Strengthened donor confidence with accessible impact documentation.',
+    ],
+    gallery: [
+      { id: 1, title: 'Course Admissions Portal', label: 'Architecture Concept: Student Registration Flow' },
+      { id: 2, title: 'Impact & Community Ledger', label: 'Architecture Concept: Social Metrics Dashboard' },
+    ],
+  },
+  {
+    id: 'merrki-expert-cold-storage',
+    slug: 'merrki-expert-cold-storage',
+    aliases: ['merki-expert-cold-storage'],
+    image: '/images/projects/merrki-expert-cold-storage.svg',
+    title: 'Merrki Expert & Cold Storage',
+    category: 'ERP & Business Software',
+    description:
+      'Industrial cold chain ERP tracking multi-chamber temperatures, agricultural lot inward/outward records, and automated storage rent billing.',
+    featured: true,
+    technologies: ['React', 'Node.js', 'PostgreSQL', 'IoT Sensors'],
+    status: 'Completed',
+    conceptType: 'Cold Storage Facility ERP',
+    overview:
+      'An enterprise-grade cold chain warehouse management platform built for Merki Expert & Cold Storage to safeguard perishable produce and streamline farmer storage contracts.',
+    problem:
+      'Managing hundreds of agricultural produce lots across multiple refrigerated chambers using physical ledgers led to lot misplacement and billing disputes.',
+    solution:
+      'Engineered a specialized warehouse ERP with digital lot inward receipts, rack location tagging, IoT temperature sensor monitoring, and periodic storage rent invoicing.',
+    features: [
+      'Multi-chamber lot allocation with rack and bay location mapping',
+      'Produce inward and outward delivery gate passes with weighbridge sync',
+      'Automated monthly storage rent calculation based on bags and duration',
+      'Real-time chamber temperature and humidity telemetry alerts',
+    ],
+    outcomes: [
+      'Eliminated produce lot tracking errors across high-capacity cold chambers.',
+      'Automated seasonal farmer storage rent invoicing and payment reconciliation.',
+    ],
+    gallery: [
+      { id: 1, title: 'Chamber Rack Grid', label: 'Architecture Concept: Warehouse Lot Tagging' },
+      { id: 2, title: 'Inward / Outward Gate Pass', label: 'Architecture Concept: Dispatch & Billing Console' },
+    ],
+  },
+  {
+    id: 'dobi-light-vondh',
+    slug: 'dobi-light-vondh',
+    image: '/images/projects/dobi-light-vondh.svg',
+    title: 'Dobi Light Wardha',
+    category: 'Digital Marketing',
+    description:
+      'Dynamic showcase and booking portal for festival illuminations, event lighting installations, and commercial stage sound equipment.',
+    featured: true,
+    technologies: ['React', 'Tailwind CSS', 'WhatsApp Business API', 'Catalog Engine'],
+    status: 'Completed',
+    conceptType: 'Event Lighting & Rental Showcase',
+    overview:
+      'Dobi light Vondh is a digital showcase and customer inquiry platform for event illuminations, festival lighting setups, and audiovisual stage equipment rentals.',
+    problem:
+      'Prospective festival committees and wedding organizers struggled to review past lighting setups, check equipment availability, or obtain itemized rental estimates.',
+    solution:
+      'Delivered a vibrant visual portal featuring categorized illumination portfolios, sound system packages, instant rental quote requests, and direct WhatsApp booking.',
+    features: [
+      'Interactive lighting equipment and sound system rental catalog',
+      'High-resolution visual showcase of completed festival & wedding illuminations',
+      'Instant event rental quote estimator with date availability checks',
+      'Direct WhatsApp inquiry integration for rapid customer consultation',
+    ],
+    outcomes: [
+      'Expanded commercial event booking inquiries across neighboring districts.',
+      'Reduced customer negotiation cycles with transparent equipment packages.',
+    ],
+    gallery: [
+      { id: 1, title: 'Lighting Showcase Gallery', label: 'Architecture Concept: Visual Portfolio Viewport' },
+      { id: 2, title: 'Rental Estimate Calculator', label: 'Architecture Concept: Equipment Quotation Tool' },
+    ],
+  },
+  {
+    id: 'swavlambi-collage',
+    slug: 'swavlambi-collage',
+    image: '/images/projects/swavlambi-collage.svg',
+    title: 'Swavlambi Collage',
+    category: 'Web Development',
+    description:
+      'Academic institution portal delivering online admissions, faculty directories, academic notices, and student document downloads.',
+    featured: true,
+    technologies: ['React', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
+    status: 'Completed',
+    conceptType: 'Higher Education College Portal',
+    overview:
+      'An academic portal developed for Swavlambi Collage to modernize student communication, digital prospectus dissemination, admissions inquiries, and college notices.',
+    problem:
+      'Students and parents faced long queues for admission prospectuses, examination timetables, and college circulars posted only on physical notice boards.',
+    solution:
+      'Constructed an institutional web portal with instant circular updates, faculty department directories, digital prospectus downloads, and online admission inquiry workflows.',
+    features: [
+      'Digital student admission inquiry portal and online application form',
+      'Dynamic circular and examination timetable announcement board',
+      'Departmental faculty profiles, research publications, and course syllabi',
+      'Mobile-friendly student document archive and download center',
+    ],
+    outcomes: [
+      'Accelerated student admission intake with digital inquiry forms.',
+      'Ensured instant access to academic announcements and examination notices.',
+    ],
+    gallery: [
+      { id: 1, title: 'Admissions & Notice Board', label: 'Architecture Concept: Academic Dashboard' },
+      { id: 2, title: 'Department Faculty Directory', label: 'Architecture Concept: Faculty & Course Catalog' },
+    ],
+  },
+  {
+    id: 'shri-sai-solar',
+    slug: 'shri-sai-solar',
+    image: '/images/projects/shri-sai-solar.svg',
+    title: 'Shri Sai Solar',
+    category: 'Web Development',
+    description:
+      'Rooftop and agricultural solar energy solutions portal with government subsidy calculators, installation showcases, and site survey requests.',
+    featured: true,
+    technologies: ['React', 'Solar Quotation Engine', 'Tailwind CSS', 'Cloud Database'],
+    status: 'Completed',
+    conceptType: 'Solar Energy Solutions Portal',
+    overview:
+      'Shri Sai Solar is an energy solutions platform connecting residential homeowners, agricultural farms, and commercial buildings with reliable solar power installations.',
+    problem:
+      'Customers found solar subsidy guidelines confusing and lacked an easy way to estimate electricity bill savings before requesting a site engineer survey.',
+    solution:
+      'Engineered a customer-first solar portal with an interactive monthly bill savings calculator, government subsidy breakdown, installation showcase, and survey booking.',
+    features: [
+      'Interactive solar capacity and monthly electricity bill savings calculator',
+      'Government PM Surya Ghar subsidy eligibility guidance and documentation checklist',
+      'Completed commercial and agricultural rooftop installation gallery',
+      'One-click rooftop survey appointment scheduling with site location pin',
+    ],
+    outcomes: [
+      'Generated qualified customer inquiries with verified energy requirements.',
+      'Educated customers on solar ROI and subsidy documentation requirements.',
+    ],
+    gallery: [
+      { id: 1, title: 'Solar Savings Calculator', label: 'Architecture Concept: Solar ROI Estimator' },
+      { id: 2, title: 'Project Installation Showcase', label: 'Architecture Concept: Site Portfolio Grid' },
+    ],
+  },
+  {
+    id: 'i-need-Gharghuti',
+    slug: 'i-need-Gharghuti',
+    aliases: ['e-commers-need-Gharghah', 'i-need-charghuti', 'e-commers-need-charghah', 'i-need-gharghuti'],
+    image: '/images/projects/i-need-Gharghuti.svg',
+    title: 'I need Gharghuti',
+    category: 'Mobile Applications',
+    description:
+      'Agricultural and livestock pasture marketplace mobile app facilitating fodder trading, cattle feed commerce, and grazing land coordination.',
+    featured: true,
+    technologies: ['React Native', 'Node.js', 'Geo-Discovery', 'Payment Integration'],
+    status: 'Completed',
+    conceptType: 'Agri & Pasture Commerce App',
+    overview:
+      'I need Gharghuti is a mobile marketplace application engineered to connect livestock farmers, dairy owners, and fodder producers for grazing land access and cattle feed commerce.',
+    problem:
+      'Pastoralists and dairy farmers struggled during dry seasons to find verified green fodder supplies, seasonal grazing pasture (Charghuti), and cattle nutrition products.',
+    solution:
+      'Developed an agricultural mobile commerce platform enabling localized fodder listings, pasture land rentals, direct farmer-to-buyer messaging, and door-step dispatch.',
+    features: [
+      'Geo-localized listing of fodder batches, silage, and certified cattle feed',
+      'Pasture grazing land (Charghuti) seasonal lease discovery and booking',
+      'Direct in-app buyer-to-seller chat and bargaining interface',
+      'Order delivery tracking with rural pickup point coordination',
+    ],
+    outcomes: [
+      'Connected regional livestock owners with dependable fodder and grazing supplies.',
+      'Provided fodder cultivators with direct market access without middlemen markups.',
+    ],
+    gallery: [
+      { id: 1, title: 'Fodder & Pasture Marketplace', label: 'Architecture Concept: Agri-Commerce Catalog' },
+      { id: 2, title: 'Order & Delivery Coordination', label: 'Architecture Concept: Logistics & Dispatch' },
     ],
   },
 ]

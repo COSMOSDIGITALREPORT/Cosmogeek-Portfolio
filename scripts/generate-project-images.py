@@ -195,6 +195,73 @@ def estate_art(x, y):
     return ''.join(out)
 
 
+def banquet_art(x, y):
+    out = [rect(x + 10, y, 236, 140, r=10, fill='#0D2822', stroke='rgba(69,214,160,0.2)')]
+    out.append(f'<path d="M{x + 38} {y + 130} A 80 75 0 0 1 {x + 218} {y + 130}" stroke="{MINT}" stroke-width="2.5" fill="none" opacity="0.8"/>')
+    out.append(f'<path d="M{x + 58} {y + 130} A 60 55 0 0 1 {x + 198} {y + 130}" stroke="{MINT2}" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.6"/>')
+    out.append(f'<line x1="{x + 128}" y1="{y + 12}" x2="{x + 128}" y2="{y + 40}" stroke="{PALE}" stroke-width="2"/>')
+    out.append(f'<polygon points="{x + 110},{y + 40} {x + 146},{y + 40} {x + 128},{y + 64}" fill="url(#mint)" opacity="0.85"/>')
+    out.append(f'<circle cx="{x + 128}" cy="{y + 72}" r="5" fill="#F5D78E"/>')
+    for lx in [60, 96, 160, 196]:
+        out.append(f'<circle cx="{x + lx}" cy="{y + 36}" r="3.5" fill="#F5D78E" opacity="0.9"/>')
+    out.append(rect(x + 40, y + 108, 176, 22, r=4, fill='#163B32', stroke='rgba(69,214,160,0.4)'))
+    out.append(t(x + 128, y + 123, 'RESERVATION STAGE', 9, PALE, 700, 'middle'))
+    return ''.join(out)
+
+
+def driving_art(x, y):
+    out = [rect(x + 10, y, 236, 140, r=10, fill='#0D2822', stroke='rgba(69,214,160,0.2)')]
+    out.append(f'<path d="M{x + 30} {y + 140} C {x + 70} {y + 80}, {x + 110} {y + 90}, {x + 160} {y + 20}" stroke="{LINE}" stroke-width="36" fill="none" stroke-linecap="round"/>')
+    out.append(f'<path d="M{x + 30} {y + 140} C {x + 70} {y + 80}, {x + 110} {y + 90}, {x + 160} {y + 20}" stroke="{MINT}" stroke-width="2.5" fill="none" stroke-dasharray="8 6"/>')
+    cx, cy = x + 100, y + 74
+    out.append(rect(cx - 24, cy - 14, 48, 28, r=8, fill='url(#mint)', stroke='#FFFFFF'))
+    out.append(f'<circle cx="{cx - 14}" cy="{cy + 14}" r="5" fill="{FOREST}"/>')
+    out.append(f'<circle cx="{cx + 14}" cy="{cy + 14}" r="5" fill="{FOREST}"/>')
+    out.append(t(cx, cy + 3, 'L', 14, FOREST, 800, 'middle'))
+    out.append(rect(x + 162, y + 85, 74, 45, r=6, fill='#163B32', stroke='rgba(69,214,160,0.4)'))
+    out.append(t(x + 199, y + 103, 'RTO PASS', 8.5, PALE, 700, 'middle'))
+    out.append(f'<circle cx="{x + 199}" cy="{y + 118}" r="6" fill="{MINT}"/>')
+    return ''.join(out)
+
+
+def trust_art(x, y):
+    out = [rect(x + 10, y, 236, 140, r=10, fill='#0D2822', stroke='rgba(69,214,160,0.2)')]
+    out.append(f'<circle cx="{x + 128}" cy="{y + 60}" r="38" fill="rgba(69,214,160,0.12)" stroke="{MINT}" stroke-width="2"/>')
+    out.append(f'<circle cx="{x + 128}" cy="{y + 60}" r="28" fill="url(#win)" stroke="{MINT2}" stroke-width="1.5" stroke-dasharray="3 3"/>')
+    out.append(f'<polygon points="{x + 128},{y + 44} {x + 152},{y + 55} {x + 128},{y + 66} {x + 104},{y + 55}" fill="url(#mint)"/>')
+    out.append(f'<path d="M{x + 112} {y + 60} v10 c0 6 32 6 32 0 v-10" fill="url(#mint)" opacity="0.8"/>')
+    out.append(f'<line x1="{x + 150}" y1="{y + 56}" x2="{x + 154}" y2="{y + 72}" stroke="#F5D78E" stroke-width="2"/>')
+    out.append(rect(x + 36, y + 108, 80, 20, r=10, fill='#163B32', stroke='rgba(69,214,160,0.3)'))
+    out.append(t(x + 76, y + 122, 'SKILL DEV', 8.5, PALE, 700, 'middle'))
+    out.append(rect(x + 138, y + 108, 80, 20, r=10, fill='#163B32', stroke='rgba(69,214,160,0.3)'))
+    out.append(t(x + 178, y + 122, 'COMMUNITY', 8.5, MINT2, 700, 'middle'))
+    return ''.join(out)
+
+
+def lighting_art(x, y):
+    out = [rect(x + 10, y, 236, 140, r=10, fill='#0D2822', stroke='rgba(69,214,160,0.2)')]
+    out.append(rect(x + 20, y + 16, 216, 8, r=3, fill='#163B32', stroke='rgba(69,214,160,0.5)'))
+    spots = [(46, '#45D6A0'), (92, '#F5D78E'), (138, '#83F0C2'), (184, '#45D6A0')]
+    for sx, col in spots:
+        out.append(f'<polygon points="{x + sx - 5},{y + 24} {x + sx + 5},{y + 24} {x + sx + 25},{y + 134} {x + sx - 25},{y + 134}" fill="{col}" opacity="0.18"/>')
+        out.append(f'<circle cx="{x + sx}" cy="{y + 24}" r="5" fill="{col}"/>')
+    out.append(rect(x + 35, y + 106, 186, 24, r=6, fill='#0A231C', stroke='rgba(69,214,160,0.3)'))
+    out.append(t(x + 128, y + 122, 'EVENT LIGHT & SOUND', 9, PALE, 700, 'middle'))
+    return ''.join(out)
+
+
+def college_art(x, y):
+    out = [rect(x + 10, y, 236, 140, r=10, fill='#0D2822', stroke='rgba(69,214,160,0.2)')]
+    out.append(f'<polygon points="{x + 128},{y + 16} {x + 40},{y + 44} {x + 216},{y + 44}" fill="url(#mint)" opacity="0.8"/>')
+    out.append(rect(x + 46, y + 44, 164, 8, r=2, fill='#163B32', stroke='rgba(69,214,160,0.4)'))
+    for px in [60, 100, 152, 192]:
+        out.append(rect(x + px - 4, y + 52, 10, 52, r=2, fill='url(#win)', stroke='rgba(69,214,160,0.3)'))
+    out.append(rect(x + 40, y + 104, 176, 8, r=2, fill='#163B32', stroke='rgba(69,214,160,0.4)'))
+    out.append(rect(x + 60, y + 116, 136, 18, r=9, fill='rgba(69,214,160,0.18)'))
+    out.append(t(x + 128, y + 128.5, 'ACADEMIC CAMPUS', 8.5, PALE, 700, 'middle'))
+    return ''.join(out)
+
+
 def mobile(p):
     out = []
     for i, screen in enumerate(p['screens']):
@@ -327,7 +394,7 @@ PROJECTS = {
     'pyb': (dashboard, dict(title='PYB', heading='Billing workspace', nav=['Dashboard', 'Invoices', 'Clients', 'Ledger', 'Reports'],
             kpis=['Invoices', 'Collections', 'Outstanding'], chart='Monthly billing', list='Recent invoices',
             rows=[('INV-1024', 'Paid'), ('INV-1023', 'Due'), ('INV-1022', 'Paid'), ('INV-1021', 'Sent')])),
-    'distributor-management-system': (dashboard, dict(title='DMS', heading='Distribution overview', nav=['Overview', 'Orders', 'Dealers', 'Inventory', 'Dispatch'],
+    'one-touch-app': (dashboard, dict(title='One Touch App', heading='Distribution overview', nav=['Overview', 'Orders', 'Dealers', 'Inventory', 'Dispatch'],
             kpis=['Orders', 'Dispatched', 'Stock alerts'], chart='Dealer orders', list='Dispatch queue',
             rows=[('Dealer — North', 'Packed'), ('Dealer — East', 'In transit'), ('Dealer — West', 'Delivered'), ('Dealer — City', 'Packed')])),
     'healthcare-management': (dashboard, dict(title='CareDesk', heading='Clinic dashboard', nav=['Overview', 'Patients', 'Appointments', 'Billing', 'Pharmacy'],
@@ -356,6 +423,46 @@ PROJECTS = {
                      dict(title='Track order', body=map_body('Rider on the way'))])),
     'digital-agro': (agro, dict(title='Digital Agro')),
     'digital-marketing-campaign': (marketing, dict(title='Digital Growth Campaign')),
+    # New Client Projects
+    'banquit-hall-sbm': (website, dict(title='Banquit Hall SBM', url='banquithall.sbm.in', nav=['Halls', 'Catering', 'Dates', 'Inquiry'],
+            eyebrow='VENUE RESERVATIONS', headline=['Celebrations built', 'with grandeur & elegance'], cta='Book dates', art=banquet_art,
+            cards=['AC Banquet Halls', 'Custom Menus', 'Event Ledgers'])),
+    'mauli-driver-school': (website, dict(title='Mauli Driver School', url='maulidriverschool.in', nav=['Courses', 'Batches', 'RTO License', 'Contact'],
+            eyebrow='DRIVING ACADEMY', headline=['Drive with confidence,', 'certified RTO training'], cta='Enroll now', art=driving_art,
+            cards=['Learner License', 'Dual-Control Cars', 'Test Scheduling'])),
+    'big-days-cellabration-app': (mobile, dict(title='Big Days CEllabration', tagline='Event planning app', toast=('Booking confirmed', 'Vendor allocated'),
+            screens=[dict(title='Vendors', body=list_body(['Grand Banquet', 'Royal Catering', 'HD Photography', 'Floral Decor'])),
+                     dict(title='Celebration', body=map_body('Venue: Main Hall'))])),
+    'sarvoday-coushali-trust': (website, dict(title='Sarvoday Coushali', url='sarvodaytrust.org.in', nav=['Programs', 'Admissions', 'Impact', 'Donate'],
+            eyebrow='VOCATIONAL TRUST', headline=['Empowering youth with', 'practical vocational skills'], cta='Apply online', art=trust_art,
+            cards=['Certified Courses', 'Placement Cell', 'Audit Reports'])),
+    'merki-expert-cold-storage': (dashboard, dict(title='Merki Cold ERP', heading='Cold storage control', nav=['Chambers', 'Produce Lots', 'Rent Billing', 'Sensors', 'Reports'],
+            kpis=['Occupancy', 'Chamber Temp', 'Due Invoices'], chart='Produce intake', list='Lot queue',
+            rows=[('Lot #842 Potatoes', '-2.4°C'), ('Lot #841 Onions', '3.1°C'), ('Lot #840 Apples', '-0.8°C'), ('Lot #839 Spices', '12.0°C')])),
+    'merrki-expert-cold-storage': (dashboard, dict(title='Merrki Cold ERP', heading='Cold storage control', nav=['Chambers', 'Produce Lots', 'Rent Billing', 'Sensors', 'Reports'],
+            kpis=['Occupancy', 'Chamber Temp', 'Due Invoices'], chart='Produce intake', list='Lot queue',
+            rows=[('Lot #842 Potatoes', '-2.4°C'), ('Lot #841 Onions', '3.1°C'), ('Lot #840 Apples', '-0.8°C'), ('Lot #839 Spices', '12.0°C')])),
+    'dobi-light-vondh': (website, dict(title='Dobi light Vondh', url='dobilightvondh.in', nav=['Lights', 'Sound', 'Events', 'Rentals'],
+            eyebrow='ILLUMINATION & SOUND', headline=['Dazzling lighting for', 'weddings & festivals'], cta='Get quotation', art=lighting_art,
+            cards=['Stage Lighting', 'Concert Sound', 'Festival Trusses'])),
+    'swavlambi-collage': (website, dict(title='Swavlambi Collage', url='swavlambicollage.edu.in', nav=['Courses', 'Admissions', 'Faculty', 'Notices'],
+            eyebrow='HIGHER EDUCATION', headline=['Shaping futures with', 'academic excellence'], cta='Admissions open', art=college_art,
+            cards=['Degree Programs', 'Online Notices', 'Digital Syllabus'])),
+    'shri-sai-solar': (website, dict(title='Shri Sai Solar', url='shrisaisolar.in', nav=['Rooftop', 'Agricultural', 'Subsidy', 'Survey'],
+            eyebrow='SOLAR SOLUTIONS', headline=['Harness clean solar,', 'cut electricity bills'], cta='Calculate savings', art=solar_art,
+            cards=['PM Surya Ghar', 'Net Metering', 'Free Site Survey'])),
+    'i-need-Gharghuti': (mobile, dict(title='I Need Gharghuti', tagline='Agri & pasture commerce', toast=('Order dispatched', 'Fodder truck arriving'),
+            screens=[dict(title='Feed Market', body=list_body(['Green Napier Grass', 'Dry Wheat Straw', 'Nutrient Silage', 'Cattle Minerals'])),
+                     dict(title='Pasture Lease', body=map_body('Gharghuti Plot #18'))])),
+    'i-need-gharghuti': (mobile, dict(title='I Need Gharghuti', tagline='Agri & pasture commerce', toast=('Order dispatched', 'Fodder truck arriving'),
+            screens=[dict(title='Feed Market', body=list_body(['Green Napier Grass', 'Dry Wheat Straw', 'Nutrient Silage', 'Cattle Minerals'])),
+                     dict(title='Pasture Lease', body=map_body('Gharghuti Plot #18'))])),
+    'i-need-charghuti': (mobile, dict(title='I Need Charghuti', tagline='Agri & pasture commerce', toast=('Order dispatched', 'Fodder truck arriving'),
+            screens=[dict(title='Feed Market', body=list_body(['Green Napier Grass', 'Dry Wheat Straw', 'Nutrient Silage', 'Cattle Minerals'])),
+                     dict(title='Pasture Lease', body=map_body('Charghuti Plot #18'))])),
+    'e-commers-need-charghah': (mobile, dict(title='I Need Gharghuti', tagline='Agri & pasture commerce', toast=('Order dispatched', 'Fodder truck arriving'),
+            screens=[dict(title='Feed Market', body=list_body(['Green Napier Grass', 'Dry Wheat Straw', 'Nutrient Silage', 'Cattle Minerals'])),
+                     dict(title='Pasture Lease', body=map_body('Gharghuti Plot #18'))])),
 }
 
 

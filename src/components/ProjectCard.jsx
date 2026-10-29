@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useReducedMotion } from 'framer-motion'
-import { ArrowUpRight, Laptop, Smartphone, Boxes, Cpu, Sprout, TrendingUp, Layers } from 'lucide-react'
+import { Laptop, Smartphone, Boxes, Cpu, Sprout, TrendingUp, Layers } from 'lucide-react'
 import { PROJECTS_DATA } from '../data/projects'
 import useTilt from '../hooks/useTilt'
 
@@ -142,7 +142,9 @@ export default function ProjectCard({ project, compact = false }) {
 
           {/* Project Title */}
           <h3 className="text-xl font-bold text-white group-hover:text-[#DFF8EF] transition-colors">
-            {project.title}
+            <Link to={`/portfolio/${project.slug}`}>
+              {project.title}
+            </Link>
           </h3>
 
           {/* Description */}
@@ -166,18 +168,6 @@ export default function ProjectCard({ project, compact = false }) {
         </div>
         )}
       </div>
-
-      {/* Bottom Action: View Case Study Link */}
-      {!compact && <div className="px-6 pb-6 pt-2 border-t border-[#1B4539]/60">
-        <Link
-          to={`/portfolio/${project.slug}`}
-          className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#45D6A0] group-hover:text-[#8BE8C1] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#45D6A0] rounded-md py-1"
-          aria-label={`View Case Study for ${project.title}`}
-        >
-          <span>View Case Study</span>
-          <ArrowUpRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-        </Link>
-      </div>}
     </motion.article>
   )
 }

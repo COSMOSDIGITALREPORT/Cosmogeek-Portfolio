@@ -476,7 +476,7 @@ export const SERVICES_DATA = [
       'Clinic and service billing',
     ],
     industries: ['Retail', 'Wholesale & Distribution', 'Manufacturing', 'Healthcare', 'Pharma', 'FMCG'],
-    relatedProjectSlugs: ['pyb', 'distributor-management-system', 'manufacturing-erp', 'healthcare-management'],
+    relatedProjectSlugs: ['pyb', 'one-touch-app', 'manufacturing-erp', 'healthcare-management'],
     faqs: [
       {
         q: 'Can the ERP be introduced in phases?',
@@ -764,7 +764,7 @@ export const SERVICES_DATA = [
       { step: '04', title: 'Insight Reviews', desc: 'Regular reviews to refine metrics and surface new opportunities.' },
     ],
     technologies: ['Python', 'PostgreSQL', 'Power BI', 'React.js'],
-    relatedProjectSlugs: ['distributor-management-system', 'manufacturing-erp'],
+    relatedProjectSlugs: ['one-touch-app', 'manufacturing-erp'],
     faqs: [
       {
         q: 'Can you work with data from our existing software?',

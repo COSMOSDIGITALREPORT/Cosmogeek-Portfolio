@@ -97,7 +97,9 @@ export default function ServiceDetails() {
   const prevService = ring && ring[(featuredIndex - 1 + ring.length) % ring.length]
   const nextService = ring && ring[(featuredIndex + 1) % ring.length]
   const relatedProjects = (service.relatedProjectSlugs || [])
-    .map((pSlug) => PROJECTS_DATA.find((p) => p.slug === pSlug))
+    .map((pSlug) =>
+      PROJECTS_DATA.find((p) => p.slug === pSlug || (p.aliases && p.aliases.includes(pSlug)))
+    )
     .filter(Boolean)
 
   const { contact } = COMPANY_INFO
